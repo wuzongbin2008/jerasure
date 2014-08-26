@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Jerasure" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/jerasure" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Jerasure" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="AUTHORS" />
+		<Unit filename="COPYING" />
+		<Unit filename="ChangeLog" />
+		<Unit filename="Examples/Makefile.am" />
+		<Unit filename="Examples/Makefile.in" />
+		<Unit filename="Examples/makefile.orig" />
+		<Unit filename="Examples/reed_sol_01_van_encode.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Examples/test_all_gfs.sh" />
+		<Unit filename="Examples/time_all_gfs_argv_init.sh" />
+		<Unit filename="INSTALL" />
+		<Unit filename="License.txt" />
+		<Unit filename="Makefile.am" />
+		<Unit filename="Makefile.in" />
+		<Unit filename="Manual.pdf" />
+		<Unit filename="NEWS" />
+		<Unit filename="PERF.txt" />
+		<Unit filename="README" />
+		<Unit filename="README.nd" />
+		<Unit filename="README.txt" />
+		<Unit filename="aclocal.m4" />
+		<Unit filename="autogen.sh" />
+		<Unit filename="config.guess" />
+		<Unit filename="config.sub" />
+		<Unit filename="configure" />
+		<Unit filename="configure.ac" />
+		<Unit filename="include/cauchy.h" />
+		<Unit filename="include/config.h.in" />
+		<Unit filename="include/config.h.in~" />
+		<Unit filename="include/galois.h" />
+		<Unit filename="include/jerasure.h" />
+		<Unit filename="include/liberation.h" />
+		<Unit filename="include/reed_sol.h" />
+		<Unit filename="install-sh" />
+		<Unit filename="ltmain.sh" />
+		<Unit filename="m4/ax_check_compile_flag.m4" />
+		<Unit filename="m4/ax_ext.m4" />
+		<Unit filename="m4/ax_gcc_x86_avx_xgetbv.m4" />
+		<Unit filename="m4/ax_gcc_x86_cpuid.m4" />
+		<Unit filename="m4/libtool.m4" />
+		<Unit filename="m4/ltoptions.m4" />
+		<Unit filename="m4/ltsugar.m4" />
+		<Unit filename="m4/ltversion.m4" />
+		<Unit filename="m4/lt~obsolete.m4" />
+		<Unit filename="makefile.orig" />
+		<Unit filename="missing" />
+		<Unit filename="src/Makefile.am" />
+		<Unit filename="src/Makefile.in" />
+		<Unit filename="src/cauchy.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/galois.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/jerasure.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/liberation.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/reed_sol.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<lib_finder disable_auto="1" />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

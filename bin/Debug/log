@@ -1,0 +1,6092 @@
+<HTML>
+<TITLE>Jerasure Example Output: cauchy_04 10 3 8 0</TITLE>
+<h2>Jerasure Example Output: cauchy_04 10 3 8 0</h3>
+<hr>
+Parameters:
+<UL><LI> Number of data disks <i>(k)</i>: 10
+<LI> Number of coding disks <i>(m)</i>: 3
+<LI> Word size of the Galois Field: <i>(w)</i>: 8
+<LI> Seed for the random number generator: 0
+<LI> Number of bytes stored per disk: 64
+<LI> Number of packets stored per disk: 8
+<LI> Number of bytes per packet: 8
+</UL>
+<hr>
+Here is the matrix, which was created with <b>cauchy_good_general_coding_matrix()</b>.
+<pre>
+  1   1   1   1   1   1   1   1   1   1
+200 151 172   1 225 166 158  44  13 226
+141  82 143 200 190 151 213 172 220   1
+</pre>
+The bitmatrix, which has 617 ones:<p><pre>
+10000000 10000000 10000000 10000000 10000000 10000000 10000000 10000000 10000000 10000000
+01000000 01000000 01000000 01000000 01000000 01000000 01000000 01000000 01000000 01000000
+00100000 00100000 00100000 00100000 00100000 00100000 00100000 00100000 00100000 00100000
+00010000 00010000 00010000 00010000 00010000 00010000 00010000 00010000 00010000 00010000
+00001000 00001000 00001000 00001000 00001000 00001000 00001000 00001000 00001000 00001000
+00000100 00000100 00000100 00000100 00000100 00000100 00000100 00000100 00000100 00000100
+00000010 00000010 00000010 00000010 00000010 00000010 00000010 00000010 00000010 00000010
+00000001 00000001 00000001 00000001 00000001 00000001 00000001 00000001 00000001 00000001
+
+01100000 11001100 01010000 10000000 11110101 01010101 01001000 00010111 10000110 01110100
+00110000 11100110 00101000 01000000 01111010 10101010 10100100 00001011 01000011 10111010
+01111000 10111111 11000100 00100000 01001000 10000000 10011010 10010010 10100111 00101001
+11011100 00010011 10110010 00010000 01010001 00010101 10000101 11011110 11010101 01100000
+00001110 11000101 00001001 00001000 01011101 01011111 10001010 01111000 01101100 01000100
+00000111 01100010 10000100 00000100 10101110 10101111 01000101 10111100 00110110 10100010
+10000011 00110001 01000010 00000010 11010111 01010111 00100010 01011110 00011011 11010001
+11000001 10011000 10100001 00000001 11101011 10101011 10010001 00101111 00001101 11101000
+
+11000001 00101010 11000000 01100000 01011001 11001100 11101110 01010000 01101010 10000000
+01100000 10010101 11100000 00110000 10101100 11100110 01110111 00101000 00110101 01000000
+11110001 01100000 10110000 01111000 10001111 10111111 11010101 11000100 11110000 00100000
+10111001 00011010 10011000 11011100 10011110 00010011 00000100 10110010 10010010 00010000
+00011101 10100111 00001100 00001110 10010110 11000101 11101100 00001001 10100011 00001000
+00001110 01010011 00000110 00000111 11001011 01100010 01110110 10000100 01010001 00000100
+00000111 10101001 00000011 10000011 01100101 00110001 10111011 01000010 10101000 00000010
+10000011 01010100 10000001 11000001 10110010 10011000 11011101 10100001 11010100 00000001
+</pre>
+<hr>
+Here are the packets on the data disks:<p>
+<center><table border=3 cellpadding=3><tr><td></td>
+<td align=center>D0</td>
+<td align=center>D1</td>
+<td align=center>D2</td>
+<td align=center>D3</td>
+<td align=center>D4</td>
+<td align=center>D5</td>
+<td align=center>D6</td>
+<td align=center>D7</td>
+<td align=center>D8</td>
+<td align=center>D9</td>
+</tr>
+<td align=right><pre>Packet 0
+Packet 1
+Packet 2
+Packet 3
+Packet 4
+Packet 5
+Packet 6
+Packet 7
+</pre></td>
+<td><pre>00000000 00000000
+00000000 00000000
+00000000 00000000
+00000000 00000000
+00000000 00000000
+00000000 00000000
+00000000 00000000
+00000000 00000000
+</td>
+<td><pre>00000000 00000000
+00000000 00000000
+00000000 00000000
+00000000 00000000
+00000000 00000000
+00000000 00000000
+00000000 00000000
+00000000 00000000
+</td>
+<td><pre>00000000 00000000
+00000000 00000000
+00000000 00000000
+00000000 00000000
+00000000 00000000
+00000000 00000000
+00000000 00000000
+00000000 00000000
+</td>
+<td><pre>00000000 00000000
+00000000 00000000
+00000000 00000000
+00000000 00000000
+00000000 00000000
+00000000 00000000
+00000000 00000000
+00000000 00000000
+</td>
+<td><pre>00000000 00000000
+00000000 00000000
+00000000 00000000
+00000000 00000000
+00000000 00000000
+00000000 00000000
+00000000 00000000
+00000000 00000000
+</td>
+<td><pre>00000000 00000000
+00000000 00000000
+00000000 00000000
+00000000 00000000
+00000000 00000000
+00000000 00000000
+00000000 00000000
+00000000 00000000
+</td>
+<td><pre>00000000 00000000
+00000000 00000000
+00000000 00000000
+00000000 00000000
+00000000 00000000
+00000000 00000000
+00000000 00000000
+00000000 00000000
+</td>
+<td><pre>00000000 00000000
+00000000 00000000
+00000000 00000000
+00000000 00000000
+00000000 00000000
+00000000 00000000
+00000000 00000000
+00000000 00000000
+</td>
+<td><pre>00000000 00000000
+00000000 00000000
+00000000 00000000
+00000000 00000000
+00000000 00000000
+00000000 00000000
+00000000 00000000
+00000000 00000000
+</td>
+<td><pre>00000000 00000000
+00000000 00000000
+00000000 00000000
+00000000 00000000
+00000000 00000000
+00000000 00000000
+00000000 00000000
+00000000 00000000
+</td>
+</tr></table></center>
+operations[0][0] = 0
+operations[0][1] = 0
+operations[0][2] = 10
+operations[0][3] = 0
+operations[0][4] = 0
+operations[1][0] = 1
+operations[1][1] = 0
+operations[1][2] = 10
+operations[1][3] = 0
+operations[1][4] = 1
+operations[2][0] = 2
+operations[2][1] = 0
+operations[2][2] = 10
+operations[2][3] = 0
+operations[2][4] = 1
+operations[3][0] = 3
+operations[3][1] = 0
+operations[3][2] = 10
+operations[3][3] = 0
+operations[3][4] = 1
+operations[4][0] = 4
+operations[4][1] = 0
+operations[4][2] = 10
+operations[4][3] = 0
+operations[4][4] = 1
+operations[5][0] = 5
+operations[5][1] = 0
+operations[5][2] = 10
+operations[5][3] = 0
+operations[5][4] = 1
+operations[6][0] = 6
+operations[6][1] = 0
+operations[6][2] = 10
+operations[6][3] = 0
+operations[6][4] = 1
+operations[7][0] = 7
+operations[7][1] = 0
+operations[7][2] = 10
+operations[7][3] = 0
+operations[7][4] = 1
+operations[8][0] = 8
+operations[8][1] = 0
+operations[8][2] = 10
+operations[8][3] = 0
+operations[8][4] = 1
+operations[9][0] = 9
+operations[9][1] = 0
+operations[9][2] = 10
+operations[9][3] = 0
+operations[9][4] = 1
+operations[10][0] = 0
+operations[10][1] = 1
+operations[10][2] = 10
+operations[10][3] = 1
+operations[10][4] = 0
+operations[11][0] = 1
+operations[11][1] = 1
+operations[11][2] = 10
+operations[11][3] = 1
+operations[11][4] = 1
+operations[12][0] = 2
+operations[12][1] = 1
+operations[12][2] = 10
+operations[12][3] = 1
+operations[12][4] = 1
+operations[13][0] = 3
+operations[13][1] = 1
+operations[13][2] = 10
+operations[13][3] = 1
+operations[13][4] = 1
+operations[14][0] = 4
+operations[14][1] = 1
+operations[14][2] = 10
+operations[14][3] = 1
+operations[14][4] = 1
+operations[15][0] = 5
+operations[15][1] = 1
+operations[15][2] = 10
+operations[15][3] = 1
+operations[15][4] = 1
+operations[16][0] = 6
+operations[16][1] = 1
+operations[16][2] = 10
+operations[16][3] = 1
+operations[16][4] = 1
+operations[17][0] = 7
+operations[17][1] = 1
+operations[17][2] = 10
+operations[17][3] = 1
+operations[17][4] = 1
+operations[18][0] = 8
+operations[18][1] = 1
+operations[18][2] = 10
+operations[18][3] = 1
+operations[18][4] = 1
+operations[19][0] = 9
+operations[19][1] = 1
+operations[19][2] = 10
+operations[19][3] = 1
+operations[19][4] = 1
+operations[20][0] = 0
+operations[20][1] = 2
+operations[20][2] = 10
+operations[20][3] = 2
+operations[20][4] = 0
+operations[21][0] = 1
+operations[21][1] = 2
+operations[21][2] = 10
+operations[21][3] = 2
+operations[21][4] = 1
+operations[22][0] = 2
+operations[22][1] = 2
+operations[22][2] = 10
+operations[22][3] = 2
+operations[22][4] = 1
+operations[23][0] = 3
+operations[23][1] = 2
+operations[23][2] = 10
+operations[23][3] = 2
+operations[23][4] = 1
+operations[24][0] = 4
+operations[24][1] = 2
+operations[24][2] = 10
+operations[24][3] = 2
+operations[24][4] = 1
+operations[25][0] = 5
+operations[25][1] = 2
+operations[25][2] = 10
+operations[25][3] = 2
+operations[25][4] = 1
+operations[26][0] = 6
+operations[26][1] = 2
+operations[26][2] = 10
+operations[26][3] = 2
+operations[26][4] = 1
+operations[27][0] = 7
+operations[27][1] = 2
+operations[27][2] = 10
+operations[27][3] = 2
+operations[27][4] = 1
+operations[28][0] = 8
+operations[28][1] = 2
+operations[28][2] = 10
+operations[28][3] = 2
+operations[28][4] = 1
+operations[29][0] = 9
+operations[29][1] = 2
+operations[29][2] = 10
+operations[29][3] = 2
+operations[29][4] = 1
+operations[30][0] = 0
+operations[30][1] = 3
+operations[30][2] = 10
+operations[30][3] = 3
+operations[30][4] = 0
+operations[31][0] = 1
+operations[31][1] = 3
+operations[31][2] = 10
+operations[31][3] = 3
+operations[31][4] = 1
+operations[32][0] = 2
+operations[32][1] = 3
+operations[32][2] = 10
+operations[32][3] = 3
+operations[32][4] = 1
+operations[33][0] = 3
+operations[33][1] = 3
+operations[33][2] = 10
+operations[33][3] = 3
+operations[33][4] = 1
+operations[34][0] = 4
+operations[34][1] = 3
+operations[34][2] = 10
+operations[34][3] = 3
+operations[34][4] = 1
+operations[35][0] = 5
+operations[35][1] = 3
+operations[35][2] = 10
+operations[35][3] = 3
+operations[35][4] = 1
+operations[36][0] = 6
+operations[36][1] = 3
+operations[36][2] = 10
+operations[36][3] = 3
+operations[36][4] = 1
+operations[37][0] = 7
+operations[37][1] = 3
+operations[37][2] = 10
+operations[37][3] = 3
+operations[37][4] = 1
+operations[38][0] = 8
+operations[38][1] = 3
+operations[38][2] = 10
+operations[38][3] = 3
+operations[38][4] = 1
+operations[39][0] = 9
+operations[39][1] = 3
+operations[39][2] = 10
+operations[39][3] = 3
+operations[39][4] = 1
+operations[40][0] = 0
+operations[40][1] = 4
+operations[40][2] = 10
+operations[40][3] = 4
+operations[40][4] = 0
+operations[41][0] = 1
+operations[41][1] = 4
+operations[41][2] = 10
+operations[41][3] = 4
+operations[41][4] = 1
+operations[42][0] = 2
+operations[42][1] = 4
+operations[42][2] = 10
+operations[42][3] = 4
+operations[42][4] = 1
+operations[43][0] = 3
+operations[43][1] = 4
+operations[43][2] = 10
+operations[43][3] = 4
+operations[43][4] = 1
+operations[44][0] = 4
+operations[44][1] = 4
+operations[44][2] = 10
+operations[44][3] = 4
+operations[44][4] = 1
+operations[45][0] = 5
+operations[45][1] = 4
+operations[45][2] = 10
+operations[45][3] = 4
+operations[45][4] = 1
+operations[46][0] = 6
+operations[46][1] = 4
+operations[46][2] = 10
+operations[46][3] = 4
+operations[46][4] = 1
+operations[47][0] = 7
+operations[47][1] = 4
+operations[47][2] = 10
+operations[47][3] = 4
+operations[47][4] = 1
+operations[48][0] = 8
+operations[48][1] = 4
+operations[48][2] = 10
+operations[48][3] = 4
+operations[48][4] = 1
+operations[49][0] = 9
+operations[49][1] = 4
+operations[49][2] = 10
+operations[49][3] = 4
+operations[49][4] = 1
+operations[50][0] = 0
+operations[50][1] = 5
+operations[50][2] = 10
+operations[50][3] = 5
+operations[50][4] = 0
+operations[51][0] = 1
+operations[51][1] = 5
+operations[51][2] = 10
+operations[51][3] = 5
+operations[51][4] = 1
+operations[52][0] = 2
+operations[52][1] = 5
+operations[52][2] = 10
+operations[52][3] = 5
+operations[52][4] = 1
+operations[53][0] = 3
+operations[53][1] = 5
+operations[53][2] = 10
+operations[53][3] = 5
+operations[53][4] = 1
+operations[54][0] = 4
+operations[54][1] = 5
+operations[54][2] = 10
+operations[54][3] = 5
+operations[54][4] = 1
+operations[55][0] = 5
+operations[55][1] = 5
+operations[55][2] = 10
+operations[55][3] = 5
+operations[55][4] = 1
+operations[56][0] = 6
+operations[56][1] = 5
+operations[56][2] = 10
+operations[56][3] = 5
+operations[56][4] = 1
+operations[57][0] = 7
+operations[57][1] = 5
+operations[57][2] = 10
+operations[57][3] = 5
+operations[57][4] = 1
+operations[58][0] = 8
+operations[58][1] = 5
+operations[58][2] = 10
+operations[58][3] = 5
+operations[58][4] = 1
+operations[59][0] = 9
+operations[59][1] = 5
+operations[59][2] = 10
+operations[59][3] = 5
+operations[59][4] = 1
+operations[60][0] = 0
+operations[60][1] = 6
+operations[60][2] = 10
+operations[60][3] = 6
+operations[60][4] = 0
+operations[61][0] = 1
+operations[61][1] = 6
+operations[61][2] = 10
+operations[61][3] = 6
+operations[61][4] = 1
+operations[62][0] = 2
+operations[62][1] = 6
+operations[62][2] = 10
+operations[62][3] = 6
+operations[62][4] = 1
+operations[63][0] = 3
+operations[63][1] = 6
+operations[63][2] = 10
+operations[63][3] = 6
+operations[63][4] = 1
+operations[64][0] = 4
+operations[64][1] = 6
+operations[64][2] = 10
+operations[64][3] = 6
+operations[64][4] = 1
+operations[65][0] = 5
+operations[65][1] = 6
+operations[65][2] = 10
+operations[65][3] = 6
+operations[65][4] = 1
+operations[66][0] = 6
+operations[66][1] = 6
+operations[66][2] = 10
+operations[66][3] = 6
+operations[66][4] = 1
+operations[67][0] = 7
+operations[67][1] = 6
+operations[67][2] = 10
+operations[67][3] = 6
+operations[67][4] = 1
+operations[68][0] = 8
+operations[68][1] = 6
+operations[68][2] = 10
+operations[68][3] = 6
+operations[68][4] = 1
+operations[69][0] = 9
+operations[69][1] = 6
+operations[69][2] = 10
+operations[69][3] = 6
+operations[69][4] = 1
+operations[70][0] = 0
+operations[70][1] = 7
+operations[70][2] = 10
+operations[70][3] = 7
+operations[70][4] = 0
+operations[71][0] = 1
+operations[71][1] = 7
+operations[71][2] = 10
+operations[71][3] = 7
+operations[71][4] = 1
+operations[72][0] = 2
+operations[72][1] = 7
+operations[72][2] = 10
+operations[72][3] = 7
+operations[72][4] = 1
+operations[73][0] = 3
+operations[73][1] = 7
+operations[73][2] = 10
+operations[73][3] = 7
+operations[73][4] = 1
+operations[74][0] = 4
+operations[74][1] = 7
+operations[74][2] = 10
+operations[74][3] = 7
+operations[74][4] = 1
+operations[75][0] = 5
+operations[75][1] = 7
+operations[75][2] = 10
+operations[75][3] = 7
+operations[75][4] = 1
+operations[76][0] = 6
+operations[76][1] = 7
+operations[76][2] = 10
+operations[76][3] = 7
+operations[76][4] = 1
+operations[77][0] = 7
+operations[77][1] = 7
+operations[77][2] = 10
+operations[77][3] = 7
+operations[77][4] = 1
+operations[78][0] = 8
+operations[78][1] = 7
+operations[78][2] = 10
+operations[78][3] = 7
+operations[78][4] = 1
+operations[79][0] = 9
+operations[79][1] = 7
+operations[79][2] = 10
+operations[79][3] = 7
+operations[79][4] = 1
+operations[80][0] = 10
+operations[80][1] = 1
+operations[80][2] = 12
+operations[80][3] = 0
+operations[80][4] = 0
+operations[81][0] = 0
+operations[81][1] = 0
+operations[81][2] = 12
+operations[81][3] = 0
+operations[81][4] = 1
+operations[82][0] = 0
+operations[82][1] = 7
+operations[82][2] = 12
+operations[82][3] = 0
+operations[82][4] = 1
+operations[83][0] = 1
+operations[83][1] = 1
+operations[83][2] = 12
+operations[83][3] = 0
+operations[83][4] = 1
+operations[84][0] = 1
+operations[84][1] = 2
+operations[84][2] = 12
+operations[84][3] = 0
+operations[84][4] = 1
+operations[85][0] = 1
+operations[85][1] = 4
+operations[85][2] = 12
+operations[85][3] = 0
+operations[85][4] = 1
+operations[86][0] = 1
+operations[86][1] = 6
+operations[86][2] = 12
+operations[86][3] = 0
+operations[86][4] = 1
+operations[87][0] = 2
+operations[87][1] = 0
+operations[87][2] = 12
+operations[87][3] = 0
+operations[87][4] = 1
+operations[88][0] = 3
+operations[88][1] = 2
+operations[88][2] = 12
+operations[88][3] = 0
+operations[88][4] = 1
+operations[89][0] = 4
+operations[89][1] = 3
+operations[89][2] = 12
+operations[89][3] = 0
+operations[89][4] = 1
+operations[90][0] = 4
+operations[90][1] = 4
+operations[90][2] = 12
+operations[90][3] = 0
+operations[90][4] = 1
+operations[91][0] = 4
+operations[91][1] = 7
+operations[91][2] = 12
+operations[91][3] = 0
+operations[91][4] = 1
+operations[92][0] = 5
+operations[92][1] = 0
+operations[92][2] = 12
+operations[92][3] = 0
+operations[92][4] = 1
+operations[93][0] = 5
+operations[93][1] = 4
+operations[93][2] = 12
+operations[93][3] = 0
+operations[93][4] = 1
+operations[94][0] = 5
+operations[94][1] = 5
+operations[94][2] = 12
+operations[94][3] = 0
+operations[94][4] = 1
+operations[95][0] = 6
+operations[95][1] = 0
+operations[95][2] = 12
+operations[95][3] = 0
+operations[95][4] = 1
+operations[96][0] = 6
+operations[96][1] = 2
+operations[96][2] = 12
+operations[96][3] = 0
+operations[96][4] = 1
+operations[97][0] = 6
+operations[97][1] = 4
+operations[97][2] = 12
+operations[97][3] = 0
+operations[97][4] = 1
+operations[98][0] = 6
+operations[98][1] = 5
+operations[98][2] = 12
+operations[98][3] = 0
+operations[98][4] = 1
+operations[99][0] = 6
+operations[99][1] = 6
+operations[99][2] = 12
+operations[99][3] = 0
+operations[99][4] = 1
+operations[100][0] = 7
+operations[100][1] = 3
+operations[100][2] = 12
+operations[100][3] = 0
+operations[100][4] = 1
+operations[101][0] = 8
+operations[101][1] = 2
+operations[101][2] = 12
+operations[101][3] = 0
+operations[101][4] = 1
+operations[102][0] = 8
+operations[102][1] = 4
+operations[102][2] = 12
+operations[102][3] = 0
+operations[102][4] = 1
+operations[103][0] = 8
+operations[103][1] = 6
+operations[103][2] = 12
+operations[103][3] = 0
+operations[103][4] = 1
+operations[104][0] = 9
+operations[104][1] = 0
+operations[104][2] = 12
+operations[104][3] = 0
+operations[104][4] = 1
+operations[105][0] = 9
+operations[105][1] = 1
+operations[105][2] = 12
+operations[105][3] = 0
+operations[105][4] = 1
+operations[106][0] = 10
+operations[106][1] = 3
+operations[106][2] = 12
+operations[106][3] = 3
+operations[106][4] = 0
+operations[107][0] = 0
+operations[107][1] = 0
+operations[107][2] = 12
+operations[107][3] = 3
+operations[107][4] = 1
+operations[108][0] = 0
+operations[108][1] = 2
+operations[108][2] = 12
+operations[108][3] = 3
+operations[108][4] = 1
+operations[109][0] = 0
+operations[109][1] = 4
+operations[109][2] = 12
+operations[109][3] = 3
+operations[109][4] = 1
+operations[110][0] = 0
+operations[110][1] = 7
+operations[110][2] = 12
+operations[110][3] = 3
+operations[110][4] = 1
+operations[111][0] = 1
+operations[111][1] = 4
+operations[111][2] = 12
+operations[111][3] = 3
+operations[111][4] = 1
+operations[112][0] = 1
+operations[112][1] = 6
+operations[112][2] = 12
+operations[112][3] = 3
+operations[112][4] = 1
+operations[113][0] = 2
+operations[113][1] = 0
+operations[113][2] = 12
+operations[113][3] = 3
+operations[113][4] = 1
+operations[114][0] = 2
+operations[114][1] = 4
+operations[114][2] = 12
+operations[114][3] = 3
+operations[114][4] = 1
+operations[115][0] = 3
+operations[115][1] = 0
+operations[115][2] = 12
+operations[115][3] = 3
+operations[115][4] = 1
+operations[116][0] = 3
+operations[116][1] = 1
+operations[116][2] = 12
+operations[116][3] = 3
+operations[116][4] = 1
+operations[117][0] = 3
+operations[117][1] = 4
+operations[117][2] = 12
+operations[117][3] = 3
+operations[117][4] = 1
+operations[118][0] = 3
+operations[118][1] = 5
+operations[118][2] = 12
+operations[118][3] = 3
+operations[118][4] = 1
+operations[119][0] = 4
+operations[119][1] = 0
+operations[119][2] = 12
+operations[119][3] = 3
+operations[119][4] = 1
+operations[120][0] = 4
+operations[120][1] = 4
+operations[120][2] = 12
+operations[120][3] = 3
+operations[120][4] = 1
+operations[121][0] = 4
+operations[121][1] = 5
+operations[121][2] = 12
+operations[121][3] = 3
+operations[121][4] = 1
+operations[122][0] = 4
+operations[122][1] = 6
+operations[122][2] = 12
+operations[122][3] = 3
+operations[122][4] = 1
+operations[123][0] = 5
+operations[123][1] = 6
+operations[123][2] = 12
+operations[123][3] = 3
+operations[123][4] = 1
+operations[124][0] = 5
+operations[124][1] = 7
+operations[124][2] = 12
+operations[124][3] = 3
+operations[124][4] = 1
+operations[125][0] = 6
+operations[125][1] = 3
+operations[125][2] = 12
+operations[125][3] = 3
+operations[125][4] = 1
+operations[126][0] = 6
+operations[126][1] = 5
+operations[126][2] = 12
+operations[126][3] = 3
+operations[126][4] = 1
+operations[127][0] = 7
+operations[127][1] = 0
+operations[127][2] = 12
+operations[127][3] = 3
+operations[127][4] = 1
+operations[128][0] = 7
+operations[128][1] = 2
+operations[128][2] = 12
+operations[128][3] = 3
+operations[128][4] = 1
+operations[129][0] = 7
+operations[129][1] = 6
+operations[129][2] = 12
+operations[129][3] = 3
+operations[129][4] = 1
+operations[130][0] = 8
+operations[130][1] = 0
+operations[130][2] = 12
+operations[130][3] = 3
+operations[130][4] = 1
+operations[131][0] = 8
+operations[131][1] = 6
+operations[131][2] = 12
+operations[131][3] = 3
+operations[131][4] = 1
+operations[132][0] = 10
+operations[132][1] = 0
+operations[132][2] = 12
+operations[132][3] = 7
+operations[132][4] = 0
+operations[133][0] = 0
+operations[133][1] = 6
+operations[133][2] = 12
+operations[133][3] = 7
+operations[133][4] = 1
+operations[134][0] = 0
+operations[134][1] = 7
+operations[134][2] = 12
+operations[134][3] = 7
+operations[134][4] = 1
+operations[135][0] = 1
+operations[135][1] = 0
+operations[135][2] = 12
+operations[135][3] = 7
+operations[135][4] = 1
+operations[136][0] = 1
+operations[136][1] = 1
+operations[136][2] = 12
+operations[136][3] = 7
+operations[136][4] = 1
+operations[137][0] = 1
+operations[137][1] = 3
+operations[137][2] = 12
+operations[137][3] = 7
+operations[137][4] = 1
+operations[138][0] = 1
+operations[138][1] = 5
+operations[138][2] = 12
+operations[138][3] = 7
+operations[138][4] = 1
+operations[139][0] = 2
+operations[139][1] = 7
+operations[139][2] = 12
+operations[139][3] = 7
+operations[139][4] = 1
+operations[140][0] = 3
+operations[140][1] = 1
+operations[140][2] = 12
+operations[140][3] = 7
+operations[140][4] = 1
+operations[141][0] = 3
+operations[141][1] = 7
+operations[141][2] = 12
+operations[141][3] = 7
+operations[141][4] = 1
+operations[142][0] = 4
+operations[142][1] = 2
+operations[142][2] = 12
+operations[142][3] = 7
+operations[142][4] = 1
+operations[143][0] = 4
+operations[143][1] = 3
+operations[143][2] = 12
+operations[143][3] = 7
+operations[143][4] = 1
+operations[144][0] = 4
+operations[144][1] = 6
+operations[144][2] = 12
+operations[144][3] = 7
+operations[144][4] = 1
+operations[145][0] = 5
+operations[145][1] = 3
+operations[145][2] = 12
+operations[145][3] = 7
+operations[145][4] = 1
+operations[146][0] = 5
+operations[146][1] = 4
+operations[146][2] = 12
+operations[146][3] = 7
+operations[146][4] = 1
+operations[147][0] = 6
+operations[147][1] = 1
+operations[147][2] = 12
+operations[147][3] = 7
+operations[147][4] = 1
+operations[148][0] = 6
+operations[148][1] = 3
+operations[148][2] = 12
+operations[148][3] = 7
+operations[148][4] = 1
+operations[149][0] = 6
+operations[149][1] = 4
+operations[149][2] = 12
+operations[149][3] = 7
+operations[149][4] = 1
+operations[150][0] = 6
+operations[150][1] = 5
+operations[150][2] = 12
+operations[150][3] = 7
+operations[150][4] = 1
+operations[151][0] = 6
+operations[151][1] = 7
+operations[151][2] = 12
+operations[151][3] = 7
+operations[151][4] = 1
+operations[152][0] = 7
+operations[152][1] = 2
+operations[152][2] = 12
+operations[152][3] = 7
+operations[152][4] = 1
+operations[153][0] = 7
+operations[153][1] = 7
+operations[153][2] = 12
+operations[153][3] = 7
+operations[153][4] = 1
+operations[154][0] = 8
+operations[154][1] = 1
+operations[154][2] = 12
+operations[154][3] = 7
+operations[154][4] = 1
+operations[155][0] = 8
+operations[155][1] = 3
+operations[155][2] = 12
+operations[155][3] = 7
+operations[155][4] = 1
+operations[156][0] = 8
+operations[156][1] = 5
+operations[156][2] = 12
+operations[156][3] = 7
+operations[156][4] = 1
+operations[157][0] = 9
+operations[157][1] = 0
+operations[157][2] = 12
+operations[157][3] = 7
+operations[157][4] = 1
+operations[158][0] = 9
+operations[158][1] = 7
+operations[158][2] = 12
+operations[158][3] = 7
+operations[158][4] = 1
+operations[159][0] = 10
+operations[159][1] = 2
+operations[159][2] = 12
+operations[159][3] = 1
+operations[159][4] = 0
+operations[160][0] = 0
+operations[160][1] = 1
+operations[160][2] = 12
+operations[160][3] = 1
+operations[160][4] = 1
+operations[161][0] = 1
+operations[161][1] = 0
+operations[161][2] = 12
+operations[161][3] = 1
+operations[161][4] = 1
+operations[162][0] = 1
+operations[162][1] = 2
+operations[162][2] = 12
+operations[162][3] = 1
+operations[162][4] = 1
+operations[163][0] = 1
+operations[163][1] = 3
+operations[163][2] = 12
+operations[163][3] = 1
+operations[163][4] = 1
+operations[164][0] = 1
+operations[164][1] = 5
+operations[164][2] = 12
+operations[164][3] = 1
+operations[164][4] = 1
+operations[165][0] = 1
+operations[165][1] = 7
+operations[165][2] = 12
+operations[165][3] = 1
+operations[165][4] = 1
+operations[166][0] = 2
+operations[166][1] = 0
+operations[166][2] = 12
+operations[166][3] = 1
+operations[166][4] = 1
+operations[167][0] = 2
+operations[167][1] = 1
+operations[167][2] = 12
+operations[167][3] = 1
+operations[167][4] = 1
+operations[168][0] = 3
+operations[168][1] = 3
+operations[168][2] = 12
+operations[168][3] = 1
+operations[168][4] = 1
+operations[169][0] = 4
+operations[169][1] = 0
+operations[169][2] = 12
+operations[169][3] = 1
+operations[169][4] = 1
+operations[170][0] = 4
+operations[170][1] = 4
+operations[170][2] = 12
+operations[170][3] = 1
+operations[170][4] = 1
+operations[171][0] = 4
+operations[171][1] = 5
+operations[171][2] = 12
+operations[171][3] = 1
+operations[171][4] = 1
+operations[172][0] = 5
+operations[172][1] = 0
+operations[172][2] = 12
+operations[172][3] = 1
+operations[172][4] = 1
+operations[173][0] = 5
+operations[173][1] = 1
+operations[173][2] = 12
+operations[173][3] = 1
+operations[173][4] = 1
+operations[174][0] = 5
+operations[174][1] = 5
+operations[174][2] = 12
+operations[174][3] = 1
+operations[174][4] = 1
+operations[175][0] = 5
+operations[175][1] = 6
+operations[175][2] = 12
+operations[175][3] = 1
+operations[175][4] = 1
+operations[176][0] = 6
+operations[176][1] = 1
+operations[176][2] = 12
+operations[176][3] = 1
+operations[176][4] = 1
+operations[177][0] = 6
+operations[177][1] = 3
+operations[177][2] = 12
+operations[177][3] = 1
+operations[177][4] = 1
+operations[178][0] = 6
+operations[178][1] = 5
+operations[178][2] = 12
+operations[178][3] = 1
+operations[178][4] = 1
+operations[179][0] = 6
+operations[179][1] = 6
+operations[179][2] = 12
+operations[179][3] = 1
+operations[179][4] = 1
+operations[180][0] = 6
+operations[180][1] = 7
+operations[180][2] = 12
+operations[180][3] = 1
+operations[180][4] = 1
+operations[181][0] = 7
+operations[181][1] = 4
+operations[181][2] = 12
+operations[181][3] = 1
+operations[181][4] = 1
+operations[182][0] = 8
+operations[182][1] = 3
+operations[182][2] = 12
+operations[182][3] = 1
+operations[182][4] = 1
+operations[183][0] = 8
+operations[183][1] = 5
+operations[183][2] = 12
+operations[183][3] = 1
+operations[183][4] = 1
+operations[184][0] = 8
+operations[184][1] = 7
+operations[184][2] = 12
+operations[184][3] = 1
+operations[184][4] = 1
+operations[185][0] = 9
+operations[185][1] = 1
+operations[185][2] = 12
+operations[185][3] = 1
+operations[185][4] = 1
+operations[186][0] = 9
+operations[186][1] = 2
+operations[186][2] = 12
+operations[186][3] = 1
+operations[186][4] = 1
+operations[187][0] = 10
+operations[187][1] = 6
+operations[187][2] = 12
+operations[187][3] = 5
+operations[187][4] = 0
+operations[188][0] = 0
+operations[188][1] = 4
+operations[188][2] = 12
+operations[188][3] = 5
+operations[188][4] = 1
+operations[189][0] = 0
+operations[189][1] = 5
+operations[189][2] = 12
+operations[189][3] = 5
+operations[189][4] = 1
+operations[190][0] = 1
+operations[190][1] = 1
+operations[190][2] = 12
+operations[190][3] = 5
+operations[190][4] = 1
+operations[191][0] = 1
+operations[191][1] = 3
+operations[191][2] = 12
+operations[191][3] = 5
+operations[191][4] = 1
+operations[192][0] = 1
+operations[192][1] = 7
+operations[192][2] = 12
+operations[192][3] = 5
+operations[192][4] = 1
+operations[193][0] = 2
+operations[193][1] = 5
+operations[193][2] = 12
+operations[193][3] = 5
+operations[193][4] = 1
+operations[194][0] = 3
+operations[194][1] = 5
+operations[194][2] = 12
+operations[194][3] = 5
+operations[194][4] = 1
+operations[195][0] = 3
+operations[195][1] = 7
+operations[195][2] = 12
+operations[195][3] = 5
+operations[195][4] = 1
+operations[196][0] = 4
+operations[196][1] = 0
+operations[196][2] = 12
+operations[196][3] = 5
+operations[196][4] = 1
+operations[197][0] = 4
+operations[197][1] = 1
+operations[197][2] = 12
+operations[197][3] = 5
+operations[197][4] = 1
+operations[198][0] = 4
+operations[198][1] = 4
+operations[198][2] = 12
+operations[198][3] = 5
+operations[198][4] = 1
+operations[199][0] = 4
+operations[199][1] = 7
+operations[199][2] = 12
+operations[199][3] = 5
+operations[199][4] = 1
+operations[200][0] = 5
+operations[200][1] = 1
+operations[200][2] = 12
+operations[200][3] = 5
+operations[200][4] = 1
+operations[201][0] = 5
+operations[201][1] = 2
+operations[201][2] = 12
+operations[201][3] = 5
+operations[201][4] = 1
+operations[202][0] = 6
+operations[202][1] = 1
+operations[202][2] = 12
+operations[202][3] = 5
+operations[202][4] = 1
+operations[203][0] = 6
+operations[203][1] = 2
+operations[203][2] = 12
+operations[203][3] = 5
+operations[203][4] = 1
+operations[204][0] = 6
+operations[204][1] = 3
+operations[204][2] = 12
+operations[204][3] = 5
+operations[204][4] = 1
+operations[205][0] = 6
+operations[205][1] = 5
+operations[205][2] = 12
+operations[205][3] = 5
+operations[205][4] = 1
+operations[206][0] = 7
+operations[206][1] = 0
+operations[206][2] = 12
+operations[206][3] = 5
+operations[206][4] = 1
+operations[207][0] = 7
+operations[207][1] = 5
+operations[207][2] = 12
+operations[207][3] = 5
+operations[207][4] = 1
+operations[208][0] = 7
+operations[208][1] = 6
+operations[208][2] = 12
+operations[208][3] = 5
+operations[208][4] = 1
+operations[209][0] = 8
+operations[209][1] = 1
+operations[209][2] = 12
+operations[209][3] = 5
+operations[209][4] = 1
+operations[210][0] = 8
+operations[210][1] = 3
+operations[210][2] = 12
+operations[210][3] = 5
+operations[210][4] = 1
+operations[211][0] = 8
+operations[211][1] = 6
+operations[211][2] = 12
+operations[211][3] = 5
+operations[211][4] = 1
+operations[212][0] = 8
+operations[212][1] = 7
+operations[212][2] = 12
+operations[212][3] = 5
+operations[212][4] = 1
+operations[213][0] = 9
+operations[213][1] = 5
+operations[213][2] = 12
+operations[213][3] = 5
+operations[213][4] = 1
+operations[214][0] = 9
+operations[214][1] = 6
+operations[214][2] = 12
+operations[214][3] = 5
+operations[214][4] = 1
+operations[215][0] = 10
+operations[215][1] = 7
+operations[215][2] = 12
+operations[215][3] = 6
+operations[215][4] = 0
+operations[216][0] = 0
+operations[216][1] = 5
+operations[216][2] = 12
+operations[216][3] = 6
+operations[216][4] = 1
+operations[217][0] = 0
+operations[217][1] = 6
+operations[217][2] = 12
+operations[217][3] = 6
+operations[217][4] = 1
+operations[218][0] = 1
+operations[218][1] = 0
+operations[218][2] = 12
+operations[218][3] = 6
+operations[218][4] = 1
+operations[219][0] = 1
+operations[219][1] = 2
+operations[219][2] = 12
+operations[219][3] = 6
+operations[219][4] = 1
+operations[220][0] = 1
+operations[220][1] = 4
+operations[220][2] = 12
+operations[220][3] = 6
+operations[220][4] = 1
+operations[221][0] = 2
+operations[221][1] = 6
+operations[221][2] = 12
+operations[221][3] = 6
+operations[221][4] = 1
+operations[222][0] = 3
+operations[222][1] = 0
+operations[222][2] = 12
+operations[222][3] = 6
+operations[222][4] = 1
+operations[223][0] = 3
+operations[223][1] = 6
+operations[223][2] = 12
+operations[223][3] = 6
+operations[223][4] = 1
+operations[224][0] = 4
+operations[224][1] = 1
+operations[224][2] = 12
+operations[224][3] = 6
+operations[224][4] = 1
+operations[225][0] = 4
+operations[225][1] = 2
+operations[225][2] = 12
+operations[225][3] = 6
+operations[225][4] = 1
+operations[226][0] = 4
+operations[226][1] = 5
+operations[226][2] = 12
+operations[226][3] = 6
+operations[226][4] = 1
+operations[227][0] = 5
+operations[227][1] = 2
+operations[227][2] = 12
+operations[227][3] = 6
+operations[227][4] = 1
+operations[228][0] = 5
+operations[228][1] = 3
+operations[228][2] = 12
+operations[228][3] = 6
+operations[228][4] = 1
+operations[229][0] = 6
+operations[229][1] = 0
+operations[229][2] = 12
+operations[229][3] = 6
+operations[229][4] = 1
+operations[230][0] = 6
+operations[230][1] = 2
+operations[230][2] = 12
+operations[230][3] = 6
+operations[230][4] = 1
+operations[231][0] = 6
+operations[231][1] = 3
+operations[231][2] = 12
+operations[231][3] = 6
+operations[231][4] = 1
+operations[232][0] = 6
+operations[232][1] = 4
+operations[232][2] = 12
+operations[232][3] = 6
+operations[232][4] = 1
+operations[233][0] = 6
+operations[233][1] = 6
+operations[233][2] = 12
+operations[233][3] = 6
+operations[233][4] = 1
+operations[234][0] = 7
+operations[234][1] = 1
+operations[234][2] = 12
+operations[234][3] = 6
+operations[234][4] = 1
+operations[235][0] = 7
+operations[235][1] = 6
+operations[235][2] = 12
+operations[235][3] = 6
+operations[235][4] = 1
+operations[236][0] = 7
+operations[236][1] = 7
+operations[236][2] = 12
+operations[236][3] = 6
+operations[236][4] = 1
+operations[237][0] = 8
+operations[237][1] = 0
+operations[237][2] = 12
+operations[237][3] = 6
+operations[237][4] = 1
+operations[238][0] = 8
+operations[238][1] = 2
+operations[238][2] = 12
+operations[238][3] = 6
+operations[238][4] = 1
+operations[239][0] = 8
+operations[239][1] = 4
+operations[239][2] = 12
+operations[239][3] = 6
+operations[239][4] = 1
+operations[240][0] = 8
+operations[240][1] = 7
+operations[240][2] = 12
+operations[240][3] = 6
+operations[240][4] = 1
+operations[241][0] = 9
+operations[241][1] = 6
+operations[241][2] = 12
+operations[241][3] = 6
+operations[241][4] = 1
+operations[242][0] = 9
+operations[242][1] = 7
+operations[242][2] = 12
+operations[242][3] = 6
+operations[242][4] = 1
+operations[243][0] = 10
+operations[243][1] = 1
+operations[243][2] = 11
+operations[243][3] = 0
+operations[243][4] = 0
+operations[244][0] = 0
+operations[244][1] = 2
+operations[244][2] = 11
+operations[244][3] = 0
+operations[244][4] = 1
+operations[245][0] = 1
+operations[245][1] = 0
+operations[245][2] = 11
+operations[245][3] = 0
+operations[245][4] = 1
+operations[246][0] = 1
+operations[246][1] = 4
+operations[246][2] = 11
+operations[246][3] = 0
+operations[246][4] = 1
+operations[247][0] = 1
+operations[247][1] = 5
+operations[247][2] = 11
+operations[247][3] = 0
+operations[247][4] = 1
+operations[248][0] = 2
+operations[248][1] = 3
+operations[248][2] = 11
+operations[248][3] = 0
+operations[248][4] = 1
+operations[249][0] = 3
+operations[249][1] = 0
+operations[249][2] = 11
+operations[249][3] = 0
+operations[249][4] = 1
+operations[250][0] = 3
+operations[250][1] = 1
+operations[250][2] = 11
+operations[250][3] = 0
+operations[250][4] = 1
+operations[251][0] = 4
+operations[251][1] = 0
+operations[251][2] = 11
+operations[251][3] = 0
+operations[251][4] = 1
+operations[252][0] = 4
+operations[252][1] = 2
+operations[252][2] = 11
+operations[252][3] = 0
+operations[252][4] = 1
+operations[253][0] = 4
+operations[253][1] = 3
+operations[253][2] = 11
+operations[253][3] = 0
+operations[253][4] = 1
+operations[254][0] = 4
+operations[254][1] = 5
+operations[254][2] = 11
+operations[254][3] = 0
+operations[254][4] = 1
+operations[255][0] = 4
+operations[255][1] = 7
+operations[255][2] = 11
+operations[255][3] = 0
+operations[255][4] = 1
+operations[256][0] = 5
+operations[256][1] = 3
+operations[256][2] = 11
+operations[256][3] = 0
+operations[256][4] = 1
+operations[257][0] = 5
+operations[257][1] = 5
+operations[257][2] = 11
+operations[257][3] = 0
+operations[257][4] = 1
+operations[258][0] = 5
+operations[258][1] = 7
+operations[258][2] = 11
+operations[258][3] = 0
+operations[258][4] = 1
+operations[259][0] = 6
+operations[259][1] = 4
+operations[259][2] = 11
+operations[259][3] = 0
+operations[259][4] = 1
+operations[260][0] = 7
+operations[260][1] = 1
+operations[260][2] = 11
+operations[260][3] = 0
+operations[260][4] = 1
+operations[261][0] = 7
+operations[261][1] = 3
+operations[261][2] = 11
+operations[261][3] = 0
+operations[261][4] = 1
+operations[262][0] = 7
+operations[262][1] = 5
+operations[262][2] = 11
+operations[262][3] = 0
+operations[262][4] = 1
+operations[263][0] = 7
+operations[263][1] = 6
+operations[263][2] = 11
+operations[263][3] = 0
+operations[263][4] = 1
+operations[264][0] = 7
+operations[264][1] = 7
+operations[264][2] = 11
+operations[264][3] = 0
+operations[264][4] = 1
+operations[265][0] = 8
+operations[265][1] = 0
+operations[265][2] = 11
+operations[265][3] = 0
+operations[265][4] = 1
+operations[266][0] = 8
+operations[266][1] = 1
+operations[266][2] = 11
+operations[266][3] = 0
+operations[266][4] = 1
+operations[267][0] = 8
+operations[267][1] = 5
+operations[267][2] = 11
+operations[267][3] = 0
+operations[267][4] = 1
+operations[268][0] = 8
+operations[268][1] = 6
+operations[268][2] = 11
+operations[268][3] = 0
+operations[268][4] = 1
+operations[269][0] = 9
+operations[269][1] = 2
+operations[269][2] = 11
+operations[269][3] = 0
+operations[269][4] = 1
+operations[270][0] = 9
+operations[270][1] = 3
+operations[270][2] = 11
+operations[270][3] = 0
+operations[270][4] = 1
+operations[271][0] = 9
+operations[271][1] = 5
+operations[271][2] = 11
+operations[271][3] = 0
+operations[271][4] = 1
+operations[272][0] = 10
+operations[272][1] = 4
+operations[272][2] = 11
+operations[272][3] = 4
+operations[272][4] = 0
+operations[273][0] = 0
+operations[273][1] = 5
+operations[273][2] = 11
+operations[273][3] = 4
+operations[273][4] = 1
+operations[274][0] = 0
+operations[274][1] = 6
+operations[274][2] = 11
+operations[274][3] = 4
+operations[274][4] = 1
+operations[275][0] = 1
+operations[275][1] = 0
+operations[275][2] = 11
+operations[275][3] = 4
+operations[275][4] = 1
+operations[276][0] = 1
+operations[276][1] = 1
+operations[276][2] = 11
+operations[276][3] = 4
+operations[276][4] = 1
+operations[277][0] = 1
+operations[277][1] = 4
+operations[277][2] = 11
+operations[277][3] = 4
+operations[277][4] = 1
+operations[278][0] = 1
+operations[278][1] = 5
+operations[278][2] = 11
+operations[278][3] = 4
+operations[278][4] = 1
+operations[279][0] = 1
+operations[279][1] = 7
+operations[279][2] = 11
+operations[279][3] = 4
+operations[279][4] = 1
+operations[280][0] = 2
+operations[280][1] = 7
+operations[280][2] = 11
+operations[280][3] = 4
+operations[280][4] = 1
+operations[281][0] = 4
+operations[281][1] = 1
+operations[281][2] = 11
+operations[281][3] = 4
+operations[281][4] = 1
+operations[282][0] = 4
+operations[282][1] = 3
+operations[282][2] = 11
+operations[282][3] = 4
+operations[282][4] = 1
+operations[283][0] = 4
+operations[283][1] = 5
+operations[283][2] = 11
+operations[283][3] = 4
+operations[283][4] = 1
+operations[284][0] = 4
+operations[284][1] = 7
+operations[284][2] = 11
+operations[284][3] = 4
+operations[284][4] = 1
+operations[285][0] = 5
+operations[285][1] = 1
+operations[285][2] = 11
+operations[285][3] = 4
+operations[285][4] = 1
+operations[286][0] = 5
+operations[286][1] = 3
+operations[286][2] = 11
+operations[286][3] = 4
+operations[286][4] = 1
+operations[287][0] = 5
+operations[287][1] = 5
+operations[287][2] = 11
+operations[287][3] = 4
+operations[287][4] = 1
+operations[288][0] = 5
+operations[288][1] = 6
+operations[288][2] = 11
+operations[288][3] = 4
+operations[288][4] = 1
+operations[289][0] = 5
+operations[289][1] = 7
+operations[289][2] = 11
+operations[289][3] = 4
+operations[289][4] = 1
+operations[290][0] = 6
+operations[290][1] = 0
+operations[290][2] = 11
+operations[290][3] = 4
+operations[290][4] = 1
+operations[291][0] = 6
+operations[291][1] = 6
+operations[291][2] = 11
+operations[291][3] = 4
+operations[291][4] = 1
+operations[292][0] = 7
+operations[292][1] = 1
+operations[292][2] = 11
+operations[292][3] = 4
+operations[292][4] = 1
+operations[293][0] = 7
+operations[293][1] = 2
+operations[293][2] = 11
+operations[293][3] = 4
+operations[293][4] = 1
+operations[294][0] = 7
+operations[294][1] = 3
+operations[294][2] = 11
+operations[294][3] = 4
+operations[294][4] = 1
+operations[295][0] = 8
+operations[295][1] = 1
+operations[295][2] = 11
+operations[295][3] = 4
+operations[295][4] = 1
+operations[296][0] = 8
+operations[296][1] = 2
+operations[296][2] = 11
+operations[296][3] = 4
+operations[296][4] = 1
+operations[297][0] = 8
+operations[297][1] = 5
+operations[297][2] = 11
+operations[297][3] = 4
+operations[297][4] = 1
+operations[298][0] = 9
+operations[298][1] = 1
+operations[298][2] = 11
+operations[298][3] = 4
+operations[298][4] = 1
+operations[299][0] = 9
+operations[299][1] = 4
+operations[299][2] = 11
+operations[299][3] = 4
+operations[299][4] = 1
+operations[300][0] = 9
+operations[300][1] = 5
+operations[300][2] = 11
+operations[300][3] = 4
+operations[300][4] = 1
+operations[301][0] = 10
+operations[301][1] = 2
+operations[301][2] = 11
+operations[301][3] = 1
+operations[301][4] = 0
+operations[302][0] = 0
+operations[302][1] = 3
+operations[302][2] = 11
+operations[302][3] = 1
+operations[302][4] = 1
+operations[303][0] = 1
+operations[303][1] = 0
+operations[303][2] = 11
+operations[303][3] = 1
+operations[303][4] = 1
+operations[304][0] = 1
+operations[304][1] = 1
+operations[304][2] = 11
+operations[304][3] = 1
+operations[304][4] = 1
+operations[305][0] = 1
+operations[305][1] = 5
+operations[305][2] = 11
+operations[305][3] = 1
+operations[305][4] = 1
+operations[306][0] = 1
+operations[306][1] = 6
+operations[306][2] = 11
+operations[306][3] = 1
+operations[306][4] = 1
+operations[307][0] = 2
+operations[307][1] = 4
+operations[307][2] = 11
+operations[307][3] = 1
+operations[307][4] = 1
+operations[308][0] = 3
+operations[308][1] = 1
+operations[308][2] = 11
+operations[308][3] = 1
+operations[308][4] = 1
+operations[309][0] = 3
+operations[309][1] = 2
+operations[309][2] = 11
+operations[309][3] = 1
+operations[309][4] = 1
+operations[310][0] = 4
+operations[310][1] = 1
+operations[310][2] = 11
+operations[310][3] = 1
+operations[310][4] = 1
+operations[311][0] = 4
+operations[311][1] = 3
+operations[311][2] = 11
+operations[311][3] = 1
+operations[311][4] = 1
+operations[312][0] = 4
+operations[312][1] = 4
+operations[312][2] = 11
+operations[312][3] = 1
+operations[312][4] = 1
+operations[313][0] = 4
+operations[313][1] = 6
+operations[313][2] = 11
+operations[313][3] = 1
+operations[313][4] = 1
+operations[314][0] = 5
+operations[314][1] = 0
+operations[314][2] = 11
+operations[314][3] = 1
+operations[314][4] = 1
+operations[315][0] = 5
+operations[315][1] = 4
+operations[315][2] = 11
+operations[315][3] = 1
+operations[315][4] = 1
+operations[316][0] = 5
+operations[316][1] = 6
+operations[316][2] = 11
+operations[316][3] = 1
+operations[316][4] = 1
+operations[317][0] = 6
+operations[317][1] = 0
+operations[317][2] = 11
+operations[317][3] = 1
+operations[317][4] = 1
+operations[318][0] = 6
+operations[318][1] = 5
+operations[318][2] = 11
+operations[318][3] = 1
+operations[318][4] = 1
+operations[319][0] = 7
+operations[319][1] = 2
+operations[319][2] = 11
+operations[319][3] = 1
+operations[319][4] = 1
+operations[320][0] = 7
+operations[320][1] = 4
+operations[320][2] = 11
+operations[320][3] = 1
+operations[320][4] = 1
+operations[321][0] = 7
+operations[321][1] = 6
+operations[321][2] = 11
+operations[321][3] = 1
+operations[321][4] = 1
+operations[322][0] = 7
+operations[322][1] = 7
+operations[322][2] = 11
+operations[322][3] = 1
+operations[322][4] = 1
+operations[323][0] = 8
+operations[323][1] = 1
+operations[323][2] = 11
+operations[323][3] = 1
+operations[323][4] = 1
+operations[324][0] = 8
+operations[324][1] = 2
+operations[324][2] = 11
+operations[324][3] = 1
+operations[324][4] = 1
+operations[325][0] = 8
+operations[325][1] = 6
+operations[325][2] = 11
+operations[325][3] = 1
+operations[325][4] = 1
+operations[326][0] = 8
+operations[326][1] = 7
+operations[326][2] = 11
+operations[326][3] = 1
+operations[326][4] = 1
+operations[327][0] = 9
+operations[327][1] = 0
+operations[327][2] = 11
+operations[327][3] = 1
+operations[327][4] = 1
+operations[328][0] = 9
+operations[328][1] = 3
+operations[328][2] = 11
+operations[328][3] = 1
+operations[328][4] = 1
+operations[329][0] = 9
+operations[329][1] = 4
+operations[329][2] = 11
+operations[329][3] = 1
+operations[329][4] = 1
+operations[330][0] = 9
+operations[330][1] = 6
+operations[330][2] = 11
+operations[330][3] = 1
+operations[330][4] = 1
+operations[331][0] = 10
+operations[331][1] = 3
+operations[331][2] = 11
+operations[331][3] = 3
+operations[331][4] = 0
+operations[332][0] = 0
+operations[332][1] = 0
+operations[332][2] = 11
+operations[332][3] = 3
+operations[332][4] = 1
+operations[333][0] = 0
+operations[333][1] = 1
+operations[333][2] = 11
+operations[333][3] = 3
+operations[333][4] = 1
+operations[334][0] = 0
+operations[334][1] = 4
+operations[334][2] = 11
+operations[334][3] = 3
+operations[334][4] = 1
+operations[335][0] = 0
+operations[335][1] = 5
+operations[335][2] = 11
+operations[335][3] = 3
+operations[335][4] = 1
+operations[336][0] = 1
+operations[336][1] = 6
+operations[336][2] = 11
+operations[336][3] = 3
+operations[336][4] = 1
+operations[337][0] = 1
+operations[337][1] = 7
+operations[337][2] = 11
+operations[337][3] = 3
+operations[337][4] = 1
+operations[338][0] = 2
+operations[338][1] = 0
+operations[338][2] = 11
+operations[338][3] = 3
+operations[338][4] = 1
+operations[339][0] = 2
+operations[339][1] = 2
+operations[339][2] = 11
+operations[339][3] = 3
+operations[339][4] = 1
+operations[340][0] = 2
+operations[340][1] = 6
+operations[340][2] = 11
+operations[340][3] = 3
+operations[340][4] = 1
+operations[341][0] = 4
+operations[341][1] = 1
+operations[341][2] = 11
+operations[341][3] = 3
+operations[341][4] = 1
+operations[342][0] = 4
+operations[342][1] = 7
+operations[342][2] = 11
+operations[342][3] = 3
+operations[342][4] = 1
+operations[343][0] = 5
+operations[343][1] = 5
+operations[343][2] = 11
+operations[343][3] = 3
+operations[343][4] = 1
+operations[344][0] = 5
+operations[344][1] = 7
+operations[344][2] = 11
+operations[344][3] = 3
+operations[344][4] = 1
+operations[345][0] = 6
+operations[345][1] = 0
+operations[345][2] = 11
+operations[345][3] = 3
+operations[345][4] = 1
+operations[346][0] = 6
+operations[346][1] = 3
+operations[346][2] = 11
+operations[346][3] = 3
+operations[346][4] = 1
+operations[347][0] = 6
+operations[347][1] = 5
+operations[347][2] = 11
+operations[347][3] = 3
+operations[347][4] = 1
+operations[348][0] = 6
+operations[348][1] = 7
+operations[348][2] = 11
+operations[348][3] = 3
+operations[348][4] = 1
+operations[349][0] = 7
+operations[349][1] = 0
+operations[349][2] = 11
+operations[349][3] = 3
+operations[349][4] = 1
+operations[350][0] = 7
+operations[350][1] = 1
+operations[350][2] = 11
+operations[350][3] = 3
+operations[350][4] = 1
+operations[351][0] = 7
+operations[351][1] = 4
+operations[351][2] = 11
+operations[351][3] = 3
+operations[351][4] = 1
+operations[352][0] = 7
+operations[352][1] = 5
+operations[352][2] = 11
+operations[352][3] = 3
+operations[352][4] = 1
+operations[353][0] = 7
+operations[353][1] = 6
+operations[353][2] = 11
+operations[353][3] = 3
+operations[353][4] = 1
+operations[354][0] = 8
+operations[354][1] = 0
+operations[354][2] = 11
+operations[354][3] = 3
+operations[354][4] = 1
+operations[355][0] = 8
+operations[355][1] = 1
+operations[355][2] = 11
+operations[355][3] = 3
+operations[355][4] = 1
+operations[356][0] = 8
+operations[356][1] = 5
+operations[356][2] = 11
+operations[356][3] = 3
+operations[356][4] = 1
+operations[357][0] = 8
+operations[357][1] = 7
+operations[357][2] = 11
+operations[357][3] = 3
+operations[357][4] = 1
+operations[358][0] = 9
+operations[358][1] = 1
+operations[358][2] = 11
+operations[358][3] = 3
+operations[358][4] = 1
+operations[359][0] = 9
+operations[359][1] = 2
+operations[359][2] = 11
+operations[359][3] = 3
+operations[359][4] = 1
+operations[360][0] = 9
+operations[360][1] = 3
+operations[360][2] = 11
+operations[360][3] = 3
+operations[360][4] = 1
+operations[361][0] = 10
+operations[361][1] = 5
+operations[361][2] = 11
+operations[361][3] = 5
+operations[361][4] = 0
+operations[362][0] = 0
+operations[362][1] = 6
+operations[362][2] = 11
+operations[362][3] = 5
+operations[362][4] = 1
+operations[363][0] = 0
+operations[363][1] = 7
+operations[363][2] = 11
+operations[363][3] = 5
+operations[363][4] = 1
+operations[364][0] = 1
+operations[364][1] = 1
+operations[364][2] = 11
+operations[364][3] = 5
+operations[364][4] = 1
+operations[365][0] = 1
+operations[365][1] = 2
+operations[365][2] = 11
+operations[365][3] = 5
+operations[365][4] = 1
+operations[366][0] = 1
+operations[366][1] = 5
+operations[366][2] = 11
+operations[366][3] = 5
+operations[366][4] = 1
+operations[367][0] = 1
+operations[367][1] = 6
+operations[367][2] = 11
+operations[367][3] = 5
+operations[367][4] = 1
+operations[368][0] = 2
+operations[368][1] = 0
+operations[368][2] = 11
+operations[368][3] = 5
+operations[368][4] = 1
+operations[369][0] = 4
+operations[369][1] = 0
+operations[369][2] = 11
+operations[369][3] = 5
+operations[369][4] = 1
+operations[370][0] = 4
+operations[370][1] = 2
+operations[370][2] = 11
+operations[370][3] = 5
+operations[370][4] = 1
+operations[371][0] = 4
+operations[371][1] = 4
+operations[371][2] = 11
+operations[371][3] = 5
+operations[371][4] = 1
+operations[372][0] = 4
+operations[372][1] = 6
+operations[372][2] = 11
+operations[372][3] = 5
+operations[372][4] = 1
+operations[373][0] = 5
+operations[373][1] = 0
+operations[373][2] = 11
+operations[373][3] = 5
+operations[373][4] = 1
+operations[374][0] = 5
+operations[374][1] = 2
+operations[374][2] = 11
+operations[374][3] = 5
+operations[374][4] = 1
+operations[375][0] = 5
+operations[375][1] = 4
+operations[375][2] = 11
+operations[375][3] = 5
+operations[375][4] = 1
+operations[376][0] = 5
+operations[376][1] = 6
+operations[376][2] = 11
+operations[376][3] = 5
+operations[376][4] = 1
+operations[377][0] = 5
+operations[377][1] = 7
+operations[377][2] = 11
+operations[377][3] = 5
+operations[377][4] = 1
+operations[378][0] = 6
+operations[378][1] = 1
+operations[378][2] = 11
+operations[378][3] = 5
+operations[378][4] = 1
+operations[379][0] = 6
+operations[379][1] = 7
+operations[379][2] = 11
+operations[379][3] = 5
+operations[379][4] = 1
+operations[380][0] = 7
+operations[380][1] = 0
+operations[380][2] = 11
+operations[380][3] = 5
+operations[380][4] = 1
+operations[381][0] = 7
+operations[381][1] = 2
+operations[381][2] = 11
+operations[381][3] = 5
+operations[381][4] = 1
+operations[382][0] = 7
+operations[382][1] = 3
+operations[382][2] = 11
+operations[382][3] = 5
+operations[382][4] = 1
+operations[383][0] = 7
+operations[383][1] = 4
+operations[383][2] = 11
+operations[383][3] = 5
+operations[383][4] = 1
+operations[384][0] = 8
+operations[384][1] = 2
+operations[384][2] = 11
+operations[384][3] = 5
+operations[384][4] = 1
+operations[385][0] = 8
+operations[385][1] = 3
+operations[385][2] = 11
+operations[385][3] = 5
+operations[385][4] = 1
+operations[386][0] = 8
+operations[386][1] = 6
+operations[386][2] = 11
+operations[386][3] = 5
+operations[386][4] = 1
+operations[387][0] = 9
+operations[387][1] = 0
+operations[387][2] = 11
+operations[387][3] = 5
+operations[387][4] = 1
+operations[388][0] = 9
+operations[388][1] = 2
+operations[388][2] = 11
+operations[388][3] = 5
+operations[388][4] = 1
+operations[389][0] = 9
+operations[389][1] = 5
+operations[389][2] = 11
+operations[389][3] = 5
+operations[389][4] = 1
+operations[390][0] = 9
+operations[390][1] = 6
+operations[390][2] = 11
+operations[390][3] = 5
+operations[390][4] = 1
+operations[391][0] = 10
+operations[391][1] = 6
+operations[391][2] = 11
+operations[391][3] = 6
+operations[391][4] = 0
+operations[392][0] = 0
+operations[392][1] = 0
+operations[392][2] = 11
+operations[392][3] = 6
+operations[392][4] = 1
+operations[393][0] = 0
+operations[393][1] = 7
+operations[393][2] = 11
+operations[393][3] = 6
+operations[393][4] = 1
+operations[394][0] = 1
+operations[394][1] = 2
+operations[394][2] = 11
+operations[394][3] = 6
+operations[394][4] = 1
+operations[395][0] = 1
+operations[395][1] = 3
+operations[395][2] = 11
+operations[395][3] = 6
+operations[395][4] = 1
+operations[396][0] = 1
+operations[396][1] = 6
+operations[396][2] = 11
+operations[396][3] = 6
+operations[396][4] = 1
+operations[397][0] = 1
+operations[397][1] = 7
+operations[397][2] = 11
+operations[397][3] = 6
+operations[397][4] = 1
+operations[398][0] = 2
+operations[398][1] = 1
+operations[398][2] = 11
+operations[398][3] = 6
+operations[398][4] = 1
+operations[399][0] = 4
+operations[399][1] = 0
+operations[399][2] = 11
+operations[399][3] = 6
+operations[399][4] = 1
+operations[400][0] = 4
+operations[400][1] = 1
+operations[400][2] = 11
+operations[400][3] = 6
+operations[400][4] = 1
+operations[401][0] = 4
+operations[401][1] = 3
+operations[401][2] = 11
+operations[401][3] = 6
+operations[401][4] = 1
+operations[402][0] = 4
+operations[402][1] = 5
+operations[402][2] = 11
+operations[402][3] = 6
+operations[402][4] = 1
+operations[403][0] = 4
+operations[403][1] = 7
+operations[403][2] = 11
+operations[403][3] = 6
+operations[403][4] = 1
+operations[404][0] = 5
+operations[404][1] = 1
+operations[404][2] = 11
+operations[404][3] = 6
+operations[404][4] = 1
+operations[405][0] = 5
+operations[405][1] = 3
+operations[405][2] = 11
+operations[405][3] = 6
+operations[405][4] = 1
+operations[406][0] = 5
+operations[406][1] = 5
+operations[406][2] = 11
+operations[406][3] = 6
+operations[406][4] = 1
+operations[407][0] = 5
+operations[407][1] = 7
+operations[407][2] = 11
+operations[407][3] = 6
+operations[407][4] = 1
+operations[408][0] = 6
+operations[408][1] = 2
+operations[408][2] = 11
+operations[408][3] = 6
+operations[408][4] = 1
+operations[409][0] = 7
+operations[409][1] = 1
+operations[409][2] = 11
+operations[409][3] = 6
+operations[409][4] = 1
+operations[410][0] = 7
+operations[410][1] = 3
+operations[410][2] = 11
+operations[410][3] = 6
+operations[410][4] = 1
+operations[411][0] = 7
+operations[411][1] = 4
+operations[411][2] = 11
+operations[411][3] = 6
+operations[411][4] = 1
+operations[412][0] = 7
+operations[412][1] = 5
+operations[412][2] = 11
+operations[412][3] = 6
+operations[412][4] = 1
+operations[413][0] = 8
+operations[413][1] = 3
+operations[413][2] = 11
+operations[413][3] = 6
+operations[413][4] = 1
+operations[414][0] = 8
+operations[414][1] = 4
+operations[414][2] = 11
+operations[414][3] = 6
+operations[414][4] = 1
+operations[415][0] = 8
+operations[415][1] = 7
+operations[415][2] = 11
+operations[415][3] = 6
+operations[415][4] = 1
+operations[416][0] = 9
+operations[416][1] = 0
+operations[416][2] = 11
+operations[416][3] = 6
+operations[416][4] = 1
+operations[417][0] = 9
+operations[417][1] = 1
+operations[417][2] = 11
+operations[417][3] = 6
+operations[417][4] = 1
+operations[418][0] = 9
+operations[418][1] = 3
+operations[418][2] = 11
+operations[418][3] = 6
+operations[418][4] = 1
+operations[419][0] = 9
+operations[419][1] = 6
+operations[419][2] = 11
+operations[419][3] = 6
+operations[419][4] = 1
+operations[420][0] = 9
+operations[420][1] = 7
+operations[420][2] = 11
+operations[420][3] = 6
+operations[420][4] = 1
+operations[421][0] = 10
+operations[421][1] = 7
+operations[421][2] = 11
+operations[421][3] = 7
+operations[421][4] = 0
+operations[422][0] = 0
+operations[422][1] = 0
+operations[422][2] = 11
+operations[422][3] = 7
+operations[422][4] = 1
+operations[423][0] = 0
+operations[423][1] = 1
+operations[423][2] = 11
+operations[423][3] = 7
+operations[423][4] = 1
+operations[424][0] = 1
+operations[424][1] = 0
+operations[424][2] = 11
+operations[424][3] = 7
+operations[424][4] = 1
+operations[425][0] = 1
+operations[425][1] = 3
+operations[425][2] = 11
+operations[425][3] = 7
+operations[425][4] = 1
+operations[426][0] = 1
+operations[426][1] = 4
+operations[426][2] = 11
+operations[426][3] = 7
+operations[426][4] = 1
+operations[427][0] = 1
+operations[427][1] = 7
+operations[427][2] = 11
+operations[427][3] = 7
+operations[427][4] = 1
+operations[428][0] = 2
+operations[428][1] = 0
+operations[428][2] = 11
+operations[428][3] = 7
+operations[428][4] = 1
+operations[429][0] = 2
+operations[429][1] = 2
+operations[429][2] = 11
+operations[429][3] = 7
+operations[429][4] = 1
+operations[430][0] = 4
+operations[430][1] = 0
+operations[430][2] = 11
+operations[430][3] = 7
+operations[430][4] = 1
+operations[431][0] = 4
+operations[431][1] = 1
+operations[431][2] = 11
+operations[431][3] = 7
+operations[431][4] = 1
+operations[432][0] = 4
+operations[432][1] = 2
+operations[432][2] = 11
+operations[432][3] = 7
+operations[432][4] = 1
+operations[433][0] = 4
+operations[433][1] = 4
+operations[433][2] = 11
+operations[433][3] = 7
+operations[433][4] = 1
+operations[434][0] = 4
+operations[434][1] = 6
+operations[434][2] = 11
+operations[434][3] = 7
+operations[434][4] = 1
+operations[435][0] = 5
+operations[435][1] = 0
+operations[435][2] = 11
+operations[435][3] = 7
+operations[435][4] = 1
+operations[436][0] = 5
+operations[436][1] = 2
+operations[436][2] = 11
+operations[436][3] = 7
+operations[436][4] = 1
+operations[437][0] = 5
+operations[437][1] = 4
+operations[437][2] = 11
+operations[437][3] = 7
+operations[437][4] = 1
+operations[438][0] = 5
+operations[438][1] = 6
+operations[438][2] = 11
+operations[438][3] = 7
+operations[438][4] = 1
+operations[439][0] = 6
+operations[439][1] = 0
+operations[439][2] = 11
+operations[439][3] = 7
+operations[439][4] = 1
+operations[440][0] = 6
+operations[440][1] = 3
+operations[440][2] = 11
+operations[440][3] = 7
+operations[440][4] = 1
+operations[441][0] = 7
+operations[441][1] = 2
+operations[441][2] = 11
+operations[441][3] = 7
+operations[441][4] = 1
+operations[442][0] = 7
+operations[442][1] = 4
+operations[442][2] = 11
+operations[442][3] = 7
+operations[442][4] = 1
+operations[443][0] = 7
+operations[443][1] = 5
+operations[443][2] = 11
+operations[443][3] = 7
+operations[443][4] = 1
+operations[444][0] = 7
+operations[444][1] = 6
+operations[444][2] = 11
+operations[444][3] = 7
+operations[444][4] = 1
+operations[445][0] = 8
+operations[445][1] = 4
+operations[445][2] = 11
+operations[445][3] = 7
+operations[445][4] = 1
+operations[446][0] = 8
+operations[446][1] = 5
+operations[446][2] = 11
+operations[446][3] = 7
+operations[446][4] = 1
+operations[447][0] = 9
+operations[447][1] = 0
+operations[447][2] = 11
+operations[447][3] = 7
+operations[447][4] = 1
+operations[448][0] = 9
+operations[448][1] = 1
+operations[448][2] = 11
+operations[448][3] = 7
+operations[448][4] = 1
+operations[449][0] = 9
+operations[449][1] = 2
+operations[449][2] = 11
+operations[449][3] = 7
+operations[449][4] = 1
+operations[450][0] = 9
+operations[450][1] = 4
+operations[450][2] = 11
+operations[450][3] = 7
+operations[450][4] = 1
+operations[451][0] = 9
+operations[451][1] = 7
+operations[451][2] = 11
+operations[451][3] = 7
+operations[451][4] = 1
+operations[452][0] = 11
+operations[452][1] = 5
+operations[452][2] = 12
+operations[452][3] = 2
+operations[452][4] = 0
+operations[453][0] = 0
+operations[453][1] = 0
+operations[453][2] = 12
+operations[453][3] = 2
+operations[453][4] = 1
+operations[454][0] = 0
+operations[454][1] = 1
+operations[454][2] = 12
+operations[454][3] = 2
+operations[454][4] = 1
+operations[455][0] = 0
+operations[455][1] = 2
+operations[455][2] = 12
+operations[455][3] = 2
+operations[455][4] = 1
+operations[456][0] = 0
+operations[456][1] = 3
+operations[456][2] = 12
+operations[456][3] = 2
+operations[456][4] = 1
+operations[457][0] = 0
+operations[457][1] = 5
+operations[457][2] = 12
+operations[457][3] = 2
+operations[457][4] = 1
+operations[458][0] = 0
+operations[458][1] = 6
+operations[458][2] = 12
+operations[458][3] = 2
+operations[458][4] = 1
+operations[459][0] = 1
+operations[459][1] = 6
+operations[459][2] = 12
+operations[459][3] = 2
+operations[459][4] = 1
+operations[460][0] = 2
+operations[460][1] = 2
+operations[460][2] = 12
+operations[460][3] = 2
+operations[460][4] = 1
+operations[461][0] = 2
+operations[461][1] = 3
+operations[461][2] = 12
+operations[461][3] = 2
+operations[461][4] = 1
+operations[462][0] = 2
+operations[462][1] = 5
+operations[462][2] = 12
+operations[462][3] = 2
+operations[462][4] = 1
+operations[463][0] = 3
+operations[463][1] = 1
+operations[463][2] = 12
+operations[463][3] = 2
+operations[463][4] = 1
+operations[464][0] = 3
+operations[464][1] = 2
+operations[464][2] = 12
+operations[464][3] = 2
+operations[464][4] = 1
+operations[465][0] = 3
+operations[465][1] = 3
+operations[465][2] = 12
+operations[465][3] = 2
+operations[465][4] = 1
+operations[466][0] = 3
+operations[466][1] = 4
+operations[466][2] = 12
+operations[466][3] = 2
+operations[466][4] = 1
+operations[467][0] = 3
+operations[467][1] = 5
+operations[467][2] = 12
+operations[467][3] = 2
+operations[467][4] = 1
+operations[468][0] = 4
+operations[468][1] = 2
+operations[468][2] = 12
+operations[468][3] = 2
+operations[468][4] = 1
+operations[469][0] = 4
+operations[469][1] = 7
+operations[469][2] = 12
+operations[469][3] = 2
+operations[469][4] = 1
+operations[470][0] = 5
+operations[470][1] = 3
+operations[470][2] = 12
+operations[470][3] = 2
+operations[470][4] = 1
+operations[471][0] = 6
+operations[471][1] = 0
+operations[471][2] = 12
+operations[471][3] = 2
+operations[471][4] = 1
+operations[472][0] = 6
+operations[472][1] = 3
+operations[472][2] = 12
+operations[472][3] = 2
+operations[472][4] = 1
+operations[473][0] = 7
+operations[473][1] = 1
+operations[473][2] = 12
+operations[473][3] = 2
+operations[473][4] = 1
+operations[474][0] = 7
+operations[474][1] = 2
+operations[474][2] = 12
+operations[474][3] = 2
+operations[474][4] = 1
+operations[475][0] = 7
+operations[475][1] = 3
+operations[475][2] = 12
+operations[475][3] = 2
+operations[475][4] = 1
+operations[476][0] = 7
+operations[476][1] = 4
+operations[476][2] = 12
+operations[476][3] = 2
+operations[476][4] = 1
+operations[477][0] = 8
+operations[477][1] = 0
+operations[477][2] = 12
+operations[477][3] = 2
+operations[477][4] = 1
+operations[478][0] = 8
+operations[478][1] = 1
+operations[478][2] = 12
+operations[478][3] = 2
+operations[478][4] = 1
+operations[479][0] = 8
+operations[479][1] = 5
+operations[479][2] = 12
+operations[479][3] = 2
+operations[479][4] = 1
+operations[480][0] = 8
+operations[480][1] = 6
+operations[480][2] = 12
+operations[480][3] = 2
+operations[480][4] = 1
+operations[481][0] = 9
+operations[481][1] = 0
+operations[481][2] = 12
+operations[481][3] = 2
+operations[481][4] = 1
+operations[482][0] = 9
+operations[482][1] = 6
+operations[482][2] = 12
+operations[482][3] = 2
+operations[482][4] = 1
+operations[483][0] = 10
+operations[483][1] = 5
+operations[483][2] = 12
+operations[483][3] = 4
+operations[483][4] = 0
+operations[484][0] = 0
+operations[484][1] = 3
+operations[484][2] = 12
+operations[484][3] = 4
+operations[484][4] = 1
+operations[485][0] = 0
+operations[485][1] = 4
+operations[485][2] = 12
+operations[485][3] = 4
+operations[485][4] = 1
+operations[486][0] = 0
+operations[486][1] = 7
+operations[486][2] = 12
+operations[486][3] = 4
+operations[486][4] = 1
+operations[487][0] = 1
+operations[487][1] = 0
+operations[487][2] = 12
+operations[487][3] = 4
+operations[487][4] = 1
+operations[488][0] = 1
+operations[488][1] = 2
+operations[488][2] = 12
+operations[488][3] = 4
+operations[488][4] = 1
+operations[489][0] = 1
+operations[489][1] = 6
+operations[489][2] = 12
+operations[489][3] = 4
+operations[489][4] = 1
+operations[490][0] = 1
+operations[490][1] = 7
+operations[490][2] = 12
+operations[490][3] = 4
+operations[490][4] = 1
+operations[491][0] = 2
+operations[491][1] = 4
+operations[491][2] = 12
+operations[491][3] = 4
+operations[491][4] = 1
+operations[492][0] = 3
+operations[492][1] = 4
+operations[492][2] = 12
+operations[492][3] = 4
+operations[492][4] = 1
+operations[493][0] = 3
+operations[493][1] = 6
+operations[493][2] = 12
+operations[493][3] = 4
+operations[493][4] = 1
+operations[494][0] = 4
+operations[494][1] = 0
+operations[494][2] = 12
+operations[494][3] = 4
+operations[494][4] = 1
+operations[495][0] = 4
+operations[495][1] = 3
+operations[495][2] = 12
+operations[495][3] = 4
+operations[495][4] = 1
+operations[496][0] = 4
+operations[496][1] = 6
+operations[496][2] = 12
+operations[496][3] = 4
+operations[496][4] = 1
+operations[497][0] = 5
+operations[497][1] = 0
+operations[497][2] = 12
+operations[497][3] = 4
+operations[497][4] = 1
+operations[498][0] = 5
+operations[498][1] = 1
+operations[498][2] = 12
+operations[498][3] = 4
+operations[498][4] = 1
+operations[499][0] = 5
+operations[499][1] = 7
+operations[499][2] = 12
+operations[499][3] = 4
+operations[499][4] = 1
+operations[500][0] = 6
+operations[500][1] = 0
+operations[500][2] = 12
+operations[500][3] = 4
+operations[500][4] = 1
+operations[501][0] = 6
+operations[501][1] = 1
+operations[501][2] = 12
+operations[501][3] = 4
+operations[501][4] = 1
+operations[502][0] = 6
+operations[502][1] = 2
+operations[502][2] = 12
+operations[502][3] = 4
+operations[502][4] = 1
+operations[503][0] = 6
+operations[503][1] = 4
+operations[503][2] = 12
+operations[503][3] = 4
+operations[503][4] = 1
+operations[504][0] = 7
+operations[504][1] = 4
+operations[504][2] = 12
+operations[504][3] = 4
+operations[504][4] = 1
+operations[505][0] = 7
+operations[505][1] = 5
+operations[505][2] = 12
+operations[505][3] = 4
+operations[505][4] = 1
+operations[506][0] = 7
+operations[506][1] = 7
+operations[506][2] = 12
+operations[506][3] = 4
+operations[506][4] = 1
+operations[507][0] = 8
+operations[507][1] = 0
+operations[507][2] = 12
+operations[507][3] = 4
+operations[507][4] = 1
+operations[508][0] = 8
+operations[508][1] = 2
+operations[508][2] = 12
+operations[508][3] = 4
+operations[508][4] = 1
+operations[509][0] = 8
+operations[509][1] = 5
+operations[509][2] = 12
+operations[509][3] = 4
+operations[509][4] = 1
+operations[510][0] = 8
+operations[510][1] = 6
+operations[510][2] = 12
+operations[510][3] = 4
+operations[510][4] = 1
+operations[511][0] = 8
+operations[511][1] = 7
+operations[511][2] = 12
+operations[511][3] = 4
+operations[511][4] = 1
+operations[512][0] = 9
+operations[512][1] = 4
+operations[512][2] = 12
+operations[512][3] = 4
+operations[512][4] = 1
+operations[513][0] = 9
+operations[513][1] = 5
+operations[513][2] = 12
+operations[513][3] = 4
+operations[513][4] = 1
+operations[514][0] = 10
+operations[514][1] = 0
+operations[514][2] = 11
+operations[514][3] = 2
+operations[514][4] = 0
+operations[515][0] = 0
+operations[515][1] = 0
+operations[515][2] = 11
+operations[515][3] = 2
+operations[515][4] = 1
+operations[516][0] = 0
+operations[516][1] = 1
+operations[516][2] = 11
+operations[516][3] = 2
+operations[516][4] = 1
+operations[517][0] = 0
+operations[517][1] = 2
+operations[517][2] = 11
+operations[517][3] = 2
+operations[517][4] = 1
+operations[518][0] = 0
+operations[518][1] = 3
+operations[518][2] = 11
+operations[518][3] = 2
+operations[518][4] = 1
+operations[519][0] = 0
+operations[519][1] = 4
+operations[519][2] = 11
+operations[519][3] = 2
+operations[519][4] = 1
+operations[520][0] = 1
+operations[520][1] = 2
+operations[520][2] = 11
+operations[520][3] = 2
+operations[520][4] = 1
+operations[521][0] = 1
+operations[521][1] = 3
+operations[521][2] = 11
+operations[521][3] = 2
+operations[521][4] = 1
+operations[522][0] = 1
+operations[522][1] = 4
+operations[522][2] = 11
+operations[522][3] = 2
+operations[522][4] = 1
+operations[523][0] = 1
+operations[523][1] = 5
+operations[523][2] = 11
+operations[523][3] = 2
+operations[523][4] = 1
+operations[524][0] = 1
+operations[524][1] = 6
+operations[524][2] = 11
+operations[524][3] = 2
+operations[524][4] = 1
+operations[525][0] = 1
+operations[525][1] = 7
+operations[525][2] = 11
+operations[525][3] = 2
+operations[525][4] = 1
+operations[526][0] = 2
+operations[526][1] = 1
+operations[526][2] = 11
+operations[526][3] = 2
+operatio<HTML>
+<TITLE>Jerasure Example Output: cauchy_04 10 3 8 0</TITLE>
+<h2>Jerasure Example Output: cauchy_04 10 3 8 0</h3>
+<hr>
+Parameters:
+<UL><LI> Number of data disks <i>(k)</i>: 10
+<LI> Number of coding disks <i>(m)</i>: 3
+<LI> Word size of the Galois Field: <i>(w)</i>: 8
+<LI> Seed for the random number generator: 0
+<LI> Number of bytes stored per disk: 64
+<LI> Number of packets stored per disk: 8
+<LI> Number of bytes per packet: 8
+</UL>
+<hr>
+Here is the matrix, which was created with <b>cauchy_good_general_coding_matrix()</b>.
+<pre>
+  1   1   1   1   1   1   1   1   1   1
+200 151 172   1 225 166 158  44  13 226
+141  82 143 200 190 151 213 172 220   1
+</pre>
+The bitmatrix, which has 617 ones:<p><pre>
+10000000 10000000 10000000 10000000 10000000 10000000 10000000 10000000 10000000 10000000
+01000000 01000000 01000000 01000000 01000000 01000000 01000000 01000000 01000000 01000000
+00100000 00100000 00100000 00100000 00100000 00100000 00100000 00100000 00100000 00100000
+00010000 00010000 00010000 00010000 00010000 00010000 00010000 00010000 00010000 00010000
+00001000 00001000 00001000 00001000 00001000 00001000 00001000 00001000 00001000 00001000
+00000100 00000100 00000100 00000100 00000100 00000100 00000100 00000100 00000100 00000100
+00000010 00000010 00000010 00000010 00000010 00000010 00000010 00000010 00000010 00000010
+00000001 00000001 00000001 00000001 00000001 00000001 00000001 00000001 00000001 00000001
+
+01100000 11001100 01010000 10000000 11110101 01010101 01001000 00010111 10000110 01110100
+00110000 11100110 00101000 01000000 01111010 10101010 10100100 00001011 01000011 10111010
+01111000 10111111 11000100 00100000 01001000 10000000 10011010 10010010 10100111 00101001
+11011100 00010011 10110010 00010000 01010001 00010101 10000101 11011110 11010101 01100000
+00001110 11000101 00001001 00001000 01011101 01011111 10001010 01111000 01101100 01000100
+00000111 01100010 10000100 00000100 10101110 10101111 01000101 10111100 00110110 10100010
+10000011 00110001 01000010 00000010 11010111 01010111 00100010 01011110 00011011 11010001
+11000001 10011000 10100001 00000001 11101011 10101011 10010001 00101111 00001101 11101000
+
+11000001 00101010 11000000 01100000 01011001 11001100 11101110 01010000 01101010 10000000
+01100000 10010101 11100000 00110000 10101100 11100110 01110111 00101000 00110101 01000000
+11110001 01100000 10110000 01111000 10001111 10111111 11010101 11000100 11110000 00100000
+10111001 00011010 10011000 11011100 10011110 00010011 00000100 10110010 10010010 00010000
+00011101 10100111 00001100 00001110 10010110 11000101 11101100 00001001 10100011 00001000
+00001110 01010011 00000110 00000111 11001011 01100010 01110110 10000100 01010001 00000100
+00000111 10101001 00000011 10000011 01100101 00110001 10111011 01000010 10101000 00000010
+10000011 01010100 10000001 11000001 10110010 10011000 11011101 10100001 11010100 00000001
+</pre>
+<hr>
+Here are the packets on the data disks:<p>
+<center><table border=3 cellpadding=3><tr><td></td>
+<td align=center>D0</td>
+<td align=center>D1</td>
+<td align=center>D2</td>
+<td align=center>D3</td>
+<td align=center>D4</td>
+<td align=center>D5</td>
+<td align=center>D6</td>
+<td align=center>D7</td>
+<td align=center>D8</td>
+<td align=center>D9</td>
+</tr>
+<td align=right><pre>Packet 0
+Packet 1
+Packet 2
+Packet 3
+Packet 4
+Packet 5
+Packet 6
+Packet 7
+</pre></td>
+<td><pre>00000000 00000000
+00000000 00000000
+00000000 00000000
+00000000 00000000
+00000000 00000000
+00000000 00000000
+00000000 00000000
+00000000 00000000
+</td>
+<td><pre>00000000 00000000
+00000000 00000000
+00000000 00000000
+00000000 00000000
+00000000 00000000
+00000000 00000000
+00000000 00000000
+00000000 00000000
+</td>
+<td><pre>00000000 00000000
+00000000 00000000
+00000000 00000000
+00000000 00000000
+00000000 00000000
+00000000 00000000
+00000000 00000000
+00000000 00000000
+</td>
+<td><pre>00000000 00000000
+00000000 00000000
+00000000 00000000
+00000000 00000000
+00000000 00000000
+00000000 00000000
+00000000 00000000
+00000000 00000000
+</td>
+<td><pre>00000000 00000000
+00000000 00000000
+00000000 00000000
+00000000 00000000
+00000000 00000000
+00000000 00000000
+00000000 00000000
+00000000 00000000
+</td>
+<td><pre>00000000 00000000
+00000000 00000000
+00000000 00000000
+00000000 00000000
+00000000 00000000
+00000000 00000000
+00000000 00000000
+00000000 00000000
+</td>
+<td><pre>00000000 00000000
+00000000 00000000
+00000000 00000000
+00000000 00000000
+00000000 00000000
+00000000 00000000
+00000000 00000000
+00000000 00000000
+</td>
+<td><pre>00000000 00000000
+00000000 00000000
+00000000 00000000
+00000000 00000000
+00000000 00000000
+00000000 00000000
+00000000 00000000
+00000000 00000000
+</td>
+<td><pre>00000000 00000000
+00000000 00000000
+00000000 00000000
+00000000 00000000
+00000000 00000000
+00000000 00000000
+00000000 00000000
+00000000 00000000
+</td>
+<td><pre>00000000 00000000
+00000000 00000000
+00000000 00000000
+00000000 00000000
+00000000 00000000
+00000000 00000000
+00000000 00000000
+00000000 00000000
+</td>
+</tr></table></center>
+operations[0][0] = 0
+operations[0][1] = 0
+operations[0][2] = 10
+operations[0][3] = 0
+operations[0][4] = 0
+
+operations[1][0] = 1
+operations[1][1] = 0
+operations[1][2] = 10
+operations[1][3] = 0
+operations[1][4] = 1
+
+operations[2][0] = 2
+operations[2][1] = 0
+operations[2][2] = 10
+operations[2][3] = 0
+operations[2][4] = 1
+
+operations[3][0] = 3
+operations[3][1] = 0
+operations[3][2] = 10
+operations[3][3] = 0
+operations[3][4] = 1
+
+operations[4][0] = 4
+operations[4][1] = 0
+operations[4][2] = 10
+operations[4][3] = 0
+operations[4][4] = 1
+
+operations[5][0] = 5
+operations[5][1] = 0
+operations[5][2] = 10
+operations[5][3] = 0
+operations[5][4] = 1
+
+operations[6][0] = 6
+operations[6][1] = 0
+operations[6][2] = 10
+operations[6][3] = 0
+operations[6][4] = 1
+
+operations[7][0] = 7
+operations[7][1] = 0
+operations[7][2] = 10
+operations[7][3] = 0
+operations[7][4] = 1
+
+operations[8][0] = 8
+operations[8][1] = 0
+operations[8][2] = 10
+operations[8][3] = 0
+operations[8][4] = 1
+
+operations[9][0] = 9
+operations[9][1] = 0
+operations[9][2] = 10
+operations[9][3] = 0
+operations[9][4] = 1
+
+operations[10][0] = 0
+operations[10][1] = 1
+operations[10][2] = 10
+operations[10][3] = 1
+operations[10][4] = 0
+
+operations[11][0] = 1
+operations[11][1] = 1
+operations[11][2] = 10
+operations[11][3] = 1
+operations[11][4] = 1
+
+operations[12][0] = 2
+operations[12][1] = 1
+operations[12][2] = 10
+operations[12][3] = 1
+operations[12][4] = 1
+
+operations[13][0] = 3
+operations[13][1] = 1
+operations[13][2] = 10
+operations[13][3] = 1
+operations[13][4] = 1
+
+operations[14][0] = 4
+operations[14][1] = 1
+operations[14][2] = 10
+operations[14][3] = 1
+operations[14][4] = 1
+
+operations[15][0] = 5
+operations[15][1] = 1
+operations[15][2] = 10
+operations[15][3] = 1
+operations[15][4] = 1
+
+operations[16][0] = 6
+operations[16][1] = 1
+operations[16][2] = 10
+operations[16][3] = 1
+operations[16][4] = 1
+
+operations[17][0] = 7
+operations[17][1] = 1
+operations[17][2] = 10
+operations[17][3] = 1
+operations[17][4] = 1
+
+operations[18][0] = 8
+operations[18][1] = 1
+operations[18][2] = 10
+operations[18][3] = 1
+operations[18][4] = 1
+
+operations[19][0] = 9
+operations[19][1] = 1
+operations[19][2] = 10
+operations[19][3] = 1
+operations[19][4] = 1
+
+operations[20][0] = 0
+operations[20][1] = 2
+operations[20][2] = 10
+operations[20][3] = 2
+operations[20][4] = 0
+
+operations[21][0] = 1
+operations[21][1] = 2
+operations[21][2] = 10
+operations[21][3] = 2
+operations[21][4] = 1
+
+operations[22][0] = 2
+operations[22][1] = 2
+operations[22][2] = 10
+operations[22][3] = 2
+operations[22][4] = 1
+
+operations[23][0] = 3
+operations[23][1] = 2
+operations[23][2] = 10
+operations[23][3] = 2
+operations[23][4] = 1
+
+operations[24][0] = 4
+operations[24][1] = 2
+operations[24][2] = 10
+operations[24][3] = 2
+operations[24][4] = 1
+
+operations[25][0] = 5
+operations[25][1] = 2
+operations[25][2] = 10
+operations[25][3] = 2
+operations[25][4] = 1
+
+operations[26][0] = 6
+operations[26][1] = 2
+operations[26][2] = 10
+operations[26][3] = 2
+operations[26][4] = 1
+
+operations[27][0] = 7
+operations[27][1] = 2
+operations[27][2] = 10
+operations[27][3] = 2
+operations[27][4] = 1
+
+operations[28][0] = 8
+operations[28][1] = 2
+operations[28][2] = 10
+operations[28][3] = 2
+operations[28][4] = 1
+
+operations[29][0] = 9
+operations[29][1] = 2
+operations[29][2] = 10
+operations[29][3] = 2
+operations[29][4] = 1
+
+operations[30][0] = 0
+operations[30][1] = 3
+operations[30][2] = 10
+operations[30][3] = 3
+operations[30][4] = 0
+
+operations[31][0] = 1
+operations[31][1] = 3
+operations[31][2] = 10
+operations[31][3] = 3
+operations[31][4] = 1
+
+operations[32][0] = 2
+operations[32][1] = 3
+operations[32][2] = 10
+operations[32][3] = 3
+operations[32][4] = 1
+
+operations[33][0] = 3
+operations[33][1] = 3
+operations[33][2] = 10
+operations[33][3] = 3
+operations[33][4] = 1
+
+operations[34][0] = 4
+operations[34][1] = 3
+operations[34][2] = 10
+operations[34][3] = 3
+operations[34][4] = 1
+
+operations[35][0] = 5
+operations[35][1] = 3
+operations[35][2] = 10
+operations[35][3] = 3
+operations[35][4] = 1
+
+operations[36][0] = 6
+operations[36][1] = 3
+operations[36][2] = 10
+operations[36][3] = 3
+operations[36][4] = 1
+
+operations[37][0] = 7
+operations[37][1] = 3
+operations[37][2] = 10
+operations[37][3] = 3
+operations[37][4] = 1
+
+operations[38][0] = 8
+operations[38][1] = 3
+operations[38][2] = 10
+operations[38][3] = 3
+operations[38][4] = 1
+
+operations[39][0] = 9
+operations[39][1] = 3
+operations[39][2] = 10
+operations[39][3] = 3
+operations[39][4] = 1
+
+operations[40][0] = 0
+operations[40][1] = 4
+operations[40][2] = 10
+operations[40][3] = 4
+operations[40][4] = 0
+
+operations[41][0] = 1
+operations[41][1] = 4
+operations[41][2] = 10
+operations[41][3] = 4
+operations[41][4] = 1
+
+operations[42][0] = 2
+operations[42][1] = 4
+operations[42][2] = 10
+operations[42][3] = 4
+operations[42][4] = 1
+
+operations[43][0] = 3
+operations[43][1] = 4
+operations[43][2] = 10
+operations[43][3] = 4
+operations[43][4] = 1
+
+operations[44][0] = 4
+operations[44][1] = 4
+operations[44][2] = 10
+operations[44][3] = 4
+operations[44][4] = 1
+
+operations[45][0] = 5
+operations[45][1] = 4
+operations[45][2] = 10
+operations[45][3] = 4
+operations[45][4] = 1
+
+operations[46][0] = 6
+operations[46][1] = 4
+operations[46][2] = 10
+operations[46][3] = 4
+operations[46][4] = 1
+
+operations[47][0] = 7
+operations[47][1] = 4
+operations[47][2] = 10
+operations[47][3] = 4
+operations[47][4] = 1
+
+operations[48][0] = 8
+operations[48][1] = 4
+operations[48][2] = 10
+operations[48][3] = 4
+operations[48][4] = 1
+
+operations[49][0] = 9
+operations[49][1] = 4
+operations[49][2] = 10
+operations[49][3] = 4
+operations[49][4] = 1
+
+operations[50][0] = 0
+operations[50][1] = 5
+operations[50][2] = 10
+operations[50][3] = 5
+operations[50][4] = 0
+
+operations[51][0] = 1
+operations[51][1] = 5
+operations[51][2] = 10
+operations[51][3] = 5
+operations[51][4] = 1
+
+operations[52][0] = 2
+operations[52][1] = 5
+operations[52][2] = 10
+operations[52][3] = 5
+operations[52][4] = 1
+
+operations[53][0] = 3
+operations[53][1] = 5
+operations[53][2] = 10
+operations[53][3] = 5
+operations[53][4] = 1
+
+operations[54][0] = 4
+operations[54][1] = 5
+operations[54][2] = 10
+operations[54][3] = 5
+operations[54][4] = 1
+
+operations[55][0] = 5
+operations[55][1] = 5
+operations[55][2] = 10
+operations[55][3] = 5
+operations[55][4] = 1
+
+operations[56][0] = 6
+operations[56][1] = 5
+operations[56][2] = 10
+operations[56][3] = 5
+operations[56][4] = 1
+
+operations[57][0] = 7
+operations[57][1] = 5
+operations[57][2] = 10
+operations[57][3] = 5
+operations[57][4] = 1
+
+operations[58][0] = 8
+operations[58][1] = 5
+operations[58][2] = 10
+operations[58][3] = 5
+operations[58][4] = 1
+
+operations[59][0] = 9
+operations[59][1] = 5
+operations[59][2] = 10
+operations[59][3] = 5
+operations[59][4] = 1
+
+operations[60][0] = 0
+operations[60][1] = 6
+operations[60][2] = 10
+operations[60][3] = 6
+operations[60][4] = 0
+
+operations[61][0] = 1
+operations[61][1] = 6
+operations[61][2] = 10
+operations[61][3] = 6
+operations[61][4] = 1
+
+operations[62][0] = 2
+operations[62][1] = 6
+operations[62][2] = 10
+operations[62][3] = 6
+operations[62][4] = 1
+
+operations[63][0] = 3
+operations[63][1] = 6
+operations[63][2] = 10
+operations[63][3] = 6
+operations[63][4] = 1
+
+operations[64][0] = 4
+operations[64][1] = 6
+operations[64][2] = 10
+operations[64][3] = 6
+operations[64][4] = 1
+
+operations[65][0] = 5
+operations[65][1] = 6
+operations[65][2] = 10
+operations[65][3] = 6
+operations[65][4] = 1
+
+operations[66][0] = 6
+operations[66][1] = 6
+operations[66][2] = 10
+operations[66][3] = 6
+operations[66][4] = 1
+
+operations[67][0] = 7
+operations[67][1] = 6
+operations[67][2] = 10
+operations[67][3] = 6
+operations[67][4] = 1
+
+operations[68][0] = 8
+operations[68][1] = 6
+operations[68][2] = 10
+operations[68][3] = 6
+operations[68][4] = 1
+
+operations[69][0] = 9
+operations[69][1] = 6
+operations[69][2] = 10
+operations[69][3] = 6
+operations[69][4] = 1
+
+operations[70][0] = 0
+operations[70][1] = 7
+operations[70][2] = 10
+operations[70][3] = 7
+operations[70][4] = 0
+
+operations[71][0] = 1
+operations[71][1] = 7
+operations[71][2] = 10
+operations[71][3] = 7
+operations[71][4] = 1
+
+operations[72][0] = 2
+operations[72][1] = 7
+operations[72][2] = 10
+operations[72][3] = 7
+operations[72][4] = 1
+
+operations[73][0] = 3
+operations[73][1] = 7
+operations[73][2] = 10
+operations[73][3] = 7
+operations[73][4] = 1
+
+operations[74][0] = 4
+operations[74][1] = 7
+operations[74][2] = 10
+operations[74][3] = 7
+operations[74][4] = 1
+
+operations[75][0] = 5
+operations[75][1] = 7
+operations[75][2] = 10
+operations[75][3] = 7
+operations[75][4] = 1
+
+operations[76][0] = 6
+operations[76][1] = 7
+operations[76][2] = 10
+operations[76][3] = 7
+operations[76][4] = 1
+
+operations[77][0] = 7
+operations[77][1] = 7
+operations[77][2] = 10
+operations[77][3] = 7
+operations[77][4] = 1
+
+operations[78][0] = 8
+operations[78][1] = 7
+operations[78][2] = 10
+operations[78][3] = 7
+operations[78][4] = 1
+
+operations[79][0] = 9
+operations[79][1] = 7
+operations[79][2] = 10
+operations[79][3] = 7
+operations[79][4] = 1
+
+operations[80][0] = 10
+operations[80][1] = 1
+operations[80][2] = 12
+operations[80][3] = 0
+operations[80][4] = 0
+
+operations[81][0] = 0
+operations[81][1] = 0
+operations[81][2] = 12
+operations[81][3] = 0
+operations[81][4] = 1
+
+operations[82][0] = 0
+operations[82][1] = 7
+operations[82][2] = 12
+operations[82][3] = 0
+operations[82][4] = 1
+
+operations[83][0] = 1
+operations[83][1] = 1
+operations[83][2] = 12
+operations[83][3] = 0
+operations[83][4] = 1
+
+operations[84][0] = 1
+operations[84][1] = 2
+operations[84][2] = 12
+operations[84][3] = 0
+operations[84][4] = 1
+
+operations[85][0] = 1
+operations[85][1] = 4
+operations[85][2] = 12
+operations[85][3] = 0
+operations[85][4] = 1
+
+operations[86][0] = 1
+operations[86][1] = 6
+operations[86][2] = 12
+operations[86][3] = 0
+operations[86][4] = 1
+
+operations[87][0] = 2
+operations[87][1] = 0
+operations[87][2] = 12
+operations[87][3] = 0
+operations[87][4] = 1
+
+operations[88][0] = 3
+operations[88][1] = 2
+operations[88][2] = 12
+operations[88][3] = 0
+operations[88][4] = 1
+
+operations[89][0] = 4
+operations[89][1] = 3
+operations[89][2] = 12
+operations[89][3] = 0
+operations[89][4] = 1
+
+operations[90][0] = 4
+operations[90][1] = 4
+operations[90][2] = 12
+operations[90][3] = 0
+operations[90][4] = 1
+
+operations[91][0] = 4
+operations[91][1] = 7
+operations[91][2] = 12
+operations[91][3] = 0
+operations[91][4] = 1
+
+operations[92][0] = 5
+operations[92][1] = 0
+operations[92][2] = 12
+operations[92][3] = 0
+operations[92][4] = 1
+
+operations[93][0] = 5
+operations[93][1] = 4
+operations[93][2] = 12
+operations[93][3] = 0
+operations[93][4] = 1
+
+operations[94][0] = 5
+operations[94][1] = 5
+operations[94][2] = 12
+operations[94][3] = 0
+operations[94][4] = 1
+
+operations[95][0] = 6
+operations[95][1] = 0
+operations[95][2] = 12
+operations[95][3] = 0
+operations[95][4] = 1
+
+operations[96][0] = 6
+operations[96][1] = 2
+operations[96][2] = 12
+operations[96][3] = 0
+operations[96][4] = 1
+
+operations[97][0] = 6
+operations[97][1] = 4
+operations[97][2] = 12
+operations[97][3] = 0
+operations[97][4] = 1
+
+operations[98][0] = 6
+operations[98][1] = 5
+operations[98][2] = 12
+operations[98][3] = 0
+operations[98][4] = 1
+
+operations[99][0] = 6
+operations[99][1] = 6
+operations[99][2] = 12
+operations[99][3] = 0
+operations[99][4] = 1
+
+operations[100][0] = 7
+operations[100][1] = 3
+operations[100][2] = 12
+operations[100][3] = 0
+operations[100][4] = 1
+
+operations[101][0] = 8
+operations[101][1] = 2
+operations[101][2] = 12
+operations[101][3] = 0
+operations[101][4] = 1
+
+operations[102][0] = 8
+operations[102][1] = 4
+operations[102][2] = 12
+operations[102][3] = 0
+operations[102][4] = 1
+
+operations[103][0] = 8
+operations[103][1] = 6
+operations[103][2] = 12
+operations[103][3] = 0
+operations[103][4] = 1
+
+operations[104][0] = 9
+operations[104][1] = 0
+operations[104][2] = 12
+operations[104][3] = 0
+operations[104][4] = 1
+
+operations[105][0] = 9
+operations[105][1] = 1
+operations[105][2] = 12
+operations[105][3] = 0
+operations[105][4] = 1
+
+operations[106][0] = 10
+operations[106][1] = 3
+operations[106][2] = 12
+operations[106][3] = 3
+operations[106][4] = 0
+
+operations[107][0] = 0
+operations[107][1] = 0
+operations[107][2] = 12
+operations[107][3] = 3
+operations[107][4] = 1
+
+operations[108][0] = 0
+operations[108][1] = 2
+operations[108][2] = 12
+operations[108][3] = 3
+operations[108][4] = 1
+
+operations[109][0] = 0
+operations[109][1] = 4
+operations[109][2] = 12
+operations[109][3] = 3
+operations[109][4] = 1
+
+operations[110][0] = 0
+operations[110][1] = 7
+operations[110][2] = 12
+operations[110][3] = 3
+operations[110][4] = 1
+
+operations[111][0] = 1
+operations[111][1] = 4
+operations[111][2] = 12
+operations[111][3] = 3
+operations[111][4] = 1
+
+operations[112][0] = 1
+operations[112][1] = 6
+operations[112][2] = 12
+operations[112][3] = 3
+operations[112][4] = 1
+
+operations[113][0] = 2
+operations[113][1] = 0
+operations[113][2] = 12
+operations[113][3] = 3
+operations[113][4] = 1
+
+operations[114][0] = 2
+operations[114][1] = 4
+operations[114][2] = 12
+operations[114][3] = 3
+operations[114][4] = 1
+
+operations[115][0] = 3
+operations[115][1] = 0
+operations[115][2] = 12
+operations[115][3] = 3
+operations[115][4] = 1
+
+operations[116][0] = 3
+operations[116][1] = 1
+operations[116][2] = 12
+operations[116][3] = 3
+operations[116][4] = 1
+
+operations[117][0] = 3
+operations[117][1] = 4
+operations[117][2] = 12
+operations[117][3] = 3
+operations[117][4] = 1
+
+operations[118][0] = 3
+operations[118][1] = 5
+operations[118][2] = 12
+operations[118][3] = 3
+operations[118][4] = 1
+
+operations[119][0] = 4
+operations[119][1] = 0
+operations[119][2] = 12
+operations[119][3] = 3
+operations[119][4] = 1
+
+operations[120][0] = 4
+operations[120][1] = 4
+operations[120][2] = 12
+operations[120][3] = 3
+operations[120][4] = 1
+
+operations[121][0] = 4
+operations[121][1] = 5
+operations[121][2] = 12
+operations[121][3] = 3
+operations[121][4] = 1
+
+operations[122][0] = 4
+operations[122][1] = 6
+operations[122][2] = 12
+operations[122][3] = 3
+operations[122][4] = 1
+
+operations[123][0] = 5
+operations[123][1] = 6
+operations[123][2] = 12
+operations[123][3] = 3
+operations[123][4] = 1
+
+operations[124][0] = 5
+operations[124][1] = 7
+operations[124][2] = 12
+operations[124][3] = 3
+operations[124][4] = 1
+
+operations[125][0] = 6
+operations[125][1] = 3
+operations[125][2] = 12
+operations[125][3] = 3
+operations[125][4] = 1
+
+operations[126][0] = 6
+operations[126][1] = 5
+operations[126][2] = 12
+operations[126][3] = 3
+operations[126][4] = 1
+
+operations[127][0] = 7
+operations[127][1] = 0
+operations[127][2] = 12
+operations[127][3] = 3
+operations[127][4] = 1
+
+operations[128][0] = 7
+operations[128][1] = 2
+operations[128][2] = 12
+operations[128][3] = 3
+operations[128][4] = 1
+
+operations[129][0] = 7
+operations[129][1] = 6
+operations[129][2] = 12
+operations[129][3] = 3
+operations[129][4] = 1
+
+operations[130][0] = 8
+operations[130][1] = 0
+operations[130][2] = 12
+operations[130][3] = 3
+operations[130][4] = 1
+
+operations[131][0] = 8
+operations[131][1] = 6
+operations[131][2] = 12
+operations[131][3] = 3
+operations[131][4] = 1
+
+operations[132][0] = 10
+operations[132][1] = 0
+operations[132][2] = 12
+operations[132][3] = 7
+operations[132][4] = 0
+
+operations[133][0] = 0
+operations[133][1] = 6
+operations[133][2] = 12
+operations[133][3] = 7
+operations[133][4] = 1
+
+operations[134][0] = 0
+operations[134][1] = 7
+operations[134][2] = 12
+operations[134][3] = 7
+operations[134][4] = 1
+
+operations[135][0] = 1
+operations[135][1] = 0
+operations[135][2] = 12
+operations[135][3] = 7
+operations[135][4] = 1
+
+operations[136][0] = 1
+operations[136][1] = 1
+operations[136][2] = 12
+operations[136][3] = 7
+operations[136][4] = 1
+
+operations[137][0] = 1
+operations[137][1] = 3
+operations[137][2] = 12
+operations[137][3] = 7
+operations[137][4] = 1
+
+operations[138][0] = 1
+operations[138][1] = 5
+operations[138][2] = 12
+operations[138][3] = 7
+operations[138][4] = 1
+
+operations[139][0] = 2
+operations[139][1] = 7
+operations[139][2] = 12
+operations[139][3] = 7
+operations[139][4] = 1
+
+operations[140][0] = 3
+operations[140][1] = 1
+operations[140][2] = 12
+operations[140][3] = 7
+operations[140][4] = 1
+
+operations[141][0] = 3
+operations[141][1] = 7
+operations[141][2] = 12
+operations[141][3] = 7
+operations[141][4] = 1
+
+operations[142][0] = 4
+operations[142][1] = 2
+operations[142][2] = 12
+operations[142][3] = 7
+operations[142][4] = 1
+
+operations[143][0] = 4
+operations[143][1] = 3
+operations[143][2] = 12
+operations[143][3] = 7
+operations[143][4] = 1
+
+operations[144][0] = 4
+operations[144][1] = 6
+operations[144][2] = 12
+operations[144][3] = 7
+operations[144][4] = 1
+
+operations[145][0] = 5
+operations[145][1] = 3
+operations[145][2] = 12
+operations[145][3] = 7
+operations[145][4] = 1
+
+operations[146][0] = 5
+operations[146][1] = 4
+operations[146][2] = 12
+operations[146][3] = 7
+operations[146][4] = 1
+
+operations[147][0] = 6
+operations[147][1] = 1
+operations[147][2] = 12
+operations[147][3] = 7
+operations[147][4] = 1
+
+operations[148][0] = 6
+operations[148][1] = 3
+operations[148][2] = 12
+operations[148][3] = 7
+operations[148][4] = 1
+
+operations[149][0] = 6
+operations[149][1] = 4
+operations[149][2] = 12
+operations[149][3] = 7
+operations[149][4] = 1
+
+operations[150][0] = 6
+operations[150][1] = 5
+operations[150][2] = 12
+operations[150][3] = 7
+operations[150][4] = 1
+
+operations[151][0] = 6
+operations[151][1] = 7
+operations[151][2] = 12
+operations[151][3] = 7
+operations[151][4] = 1
+
+operations[152][0] = 7
+operations[152][1] = 2
+operations[152][2] = 12
+operations[152][3] = 7
+operations[152][4] = 1
+
+operations[153][0] = 7
+operations[153][1] = 7
+operations[153][2] = 12
+operations[153][3] = 7
+operations[153][4] = 1
+
+operations[154][0] = 8
+operations[154][1] = 1
+operations[154][2] = 12
+operations[154][3] = 7
+operations[154][4] = 1
+
+operations[155][0] = 8
+operations[155][1] = 3
+operations[155][2] = 12
+operations[155][3] = 7
+operations[155][4] = 1
+
+operations[156][0] = 8
+operations[156][1] = 5
+operations[156][2] = 12
+operations[156][3] = 7
+operations[156][4] = 1
+
+operations[157][0] = 9
+operations[157][1] = 0
+operations[157][2] = 12
+operations[157][3] = 7
+operations[157][4] = 1
+
+operations[158][0] = 9
+operations[158][1] = 7
+operations[158][2] = 12
+operations[158][3] = 7
+operations[158][4] = 1
+
+operations[159][0] = 10
+operations[159][1] = 2
+operations[159][2] = 12
+operations[159][3] = 1
+operations[159][4] = 0
+
+operations[160][0] = 0
+operations[160][1] = 1
+operations[160][2] = 12
+operations[160][3] = 1
+operations[160][4] = 1
+
+operations[161][0] = 1
+operations[161][1] = 0
+operations[161][2] = 12
+operations[161][3] = 1
+operations[161][4] = 1
+
+operations[162][0] = 1
+operations[162][1] = 2
+operations[162][2] = 12
+operations[162][3] = 1
+operations[162][4] = 1
+
+operations[163][0] = 1
+operations[163][1] = 3
+operations[163][2] = 12
+operations[163][3] = 1
+operations[163][4] = 1
+
+operations[164][0] = 1
+operations[164][1] = 5
+operations[164][2] = 12
+operations[164][3] = 1
+operations[164][4] = 1
+
+operations[165][0] = 1
+operations[165][1] = 7
+operations[165][2] = 12
+operations[165][3] = 1
+operations[165][4] = 1
+
+operations[166][0] = 2
+operations[166][1] = 0
+operations[166][2] = 12
+operations[166][3] = 1
+operations[166][4] = 1
+
+operations[167][0] = 2
+operations[167][1] = 1
+operations[167][2] = 12
+operations[167][3] = 1
+operations[167][4] = 1
+
+operations[168][0] = 3
+operations[168][1] = 3
+operations[168][2] = 12
+operations[168][3] = 1
+operations[168][4] = 1
+
+operations[169][0] = 4
+operations[169][1] = 0
+operations[169][2] = 12
+operations[169][3] = 1
+operations[169][4] = 1
+
+operations[170][0] = 4
+operations[170][1] = 4
+operations[170][2] = 12
+operations[170][3] = 1
+operations[170][4] = 1
+
+operations[171][0] = 4
+operations[171][1] = 5
+operations[171][2] = 12
+operations[171][3] = 1
+operations[171][4] = 1
+
+operations[172][0] = 5
+operations[172][1] = 0
+operations[172][2] = 12
+operations[172][3] = 1
+operations[172][4] = 1
+
+operations[173][0] = 5
+operations[173][1] = 1
+operations[173][2] = 12
+operations[173][3] = 1
+operations[173][4] = 1
+
+operations[174][0] = 5
+operations[174][1] = 5
+operations[174][2] = 12
+operations[174][3] = 1
+operations[174][4] = 1
+
+operations[175][0] = 5
+operations[175][1] = 6
+operations[175][2] = 12
+operations[175][3] = 1
+operations[175][4] = 1
+
+operations[176][0] = 6
+operations[176][1] = 1
+operations[176][2] = 12
+operations[176][3] = 1
+operations[176][4] = 1
+
+operations[177][0] = 6
+operations[177][1] = 3
+operations[177][2] = 12
+operations[177][3] = 1
+operations[177][4] = 1
+
+operations[178][0] = 6
+operations[178][1] = 5
+operations[178][2] = 12
+operations[178][3] = 1
+operations[178][4] = 1
+
+operations[179][0] = 6
+operations[179][1] = 6
+operations[179][2] = 12
+operations[179][3] = 1
+operations[179][4] = 1
+
+operations[180][0] = 6
+operations[180][1] = 7
+operations[180][2] = 12
+operations[180][3] = 1
+operations[180][4] = 1
+
+operations[181][0] = 7
+operations[181][1] = 4
+operations[181][2] = 12
+operations[181][3] = 1
+operations[181][4] = 1
+
+operations[182][0] = 8
+operations[182][1] = 3
+operations[182][2] = 12
+operations[182][3] = 1
+operations[182][4] = 1
+
+operations[183][0] = 8
+operations[183][1] = 5
+operations[183][2] = 12
+operations[183][3] = 1
+operations[183][4] = 1
+
+operations[184][0] = 8
+operations[184][1] = 7
+operations[184][2] = 12
+operations[184][3] = 1
+operations[184][4] = 1
+
+operations[185][0] = 9
+operations[185][1] = 1
+operations[185][2] = 12
+operations[185][3] = 1
+operations[185][4] = 1
+
+operations[186][0] = 9
+operations[186][1] = 2
+operations[186][2] = 12
+operations[186][3] = 1
+operations[186][4] = 1
+
+operations[187][0] = 10
+operations[187][1] = 6
+operations[187][2] = 12
+operations[187][3] = 5
+operations[187][4] = 0
+
+operations[188][0] = 0
+operations[188][1] = 4
+operations[188][2] = 12
+operations[188][3] = 5
+operations[188][4] = 1
+
+operations[189][0] = 0
+operations[189][1] = 5
+operations[189][2] = 12
+operations[189][3] = 5
+operations[189][4] = 1
+
+operations[190][0] = 1
+operations[190][1] = 1
+operations[190][2] = 12
+operations[190][3] = 5
+operations[190][4] = 1
+
+operations[191][0] = 1
+operations[191][1] = 3
+operations[191][2] = 12
+operations[191][3] = 5
+operations[191][4] = 1
+
+operations[192][0] = 1
+operations[192][1] = 7
+operations[192][2] = 12
+operations[192][3] = 5
+operations[192][4] = 1
+
+operations[193][0] = 2
+operations[193][1] = 5
+operations[193][2] = 12
+operations[193][3] = 5
+operations[193][4] = 1
+
+operations[194][0] = 3
+operations[194][1] = 5
+operations[194][2] = 12
+operations[194][3] = 5
+operations[194][4] = 1
+
+operations[195][0] = 3
+operations[195][1] = 7
+operations[195][2] = 12
+operations[195][3] = 5
+operations[195][4] = 1
+
+operations[196][0] = 4
+operations[196][1] = 0
+operations[196][2] = 12
+operations[196][3] = 5
+operations[196][4] = 1
+
+operations[197][0] = 4
+operations[197][1] = 1
+operations[197][2] = 12
+operations[197][3] = 5
+operations[197][4] = 1
+
+operations[198][0] = 4
+operations[198][1] = 4
+operations[198][2] = 12
+operations[198][3] = 5
+operations[198][4] = 1
+
+operations[199][0] = 4
+operations[199][1] = 7
+operations[199][2] = 12
+operations[199][3] = 5
+operations[199][4] = 1
+
+operations[200][0] = 5
+operations[200][1] = 1
+operations[200][2] = 12
+operations[200][3] = 5
+operations[200][4] = 1
+
+operations[201][0] = 5
+operations[201][1] = 2
+operations[201][2] = 12
+operations[201][3] = 5
+operations[201][4] = 1
+
+operations[202][0] = 6
+operations[202][1] = 1
+operations[202][2] = 12
+operations[202][3] = 5
+operations[202][4] = 1
+
+operations[203][0] = 6
+operations[203][1] = 2
+operations[203][2] = 12
+operations[203][3] = 5
+operations[203][4] = 1
+
+operations[204][0] = 6
+operations[204][1] = 3
+operations[204][2] = 12
+operations[204][3] = 5
+operations[204][4] = 1
+
+operations[205][0] = 6
+operations[205][1] = 5
+operations[205][2] = 12
+operations[205][3] = 5
+operations[205][4] = 1
+
+operations[206][0] = 7
+operations[206][1] = 0
+operations[206][2] = 12
+operations[206][3] = 5
+operations[206][4] = 1
+
+operations[207][0] = 7
+operations[207][1] = 5
+operations[207][2] = 12
+operations[207][3] = 5
+operations[207][4] = 1
+
+operations[208][0] = 7
+operations[208][1] = 6
+operations[208][2] = 12
+operations[208][3] = 5
+operations[208][4] = 1
+
+operations[209][0] = 8
+operations[209][1] = 1
+operations[209][2] = 12
+operations[209][3] = 5
+operations[209][4] = 1
+
+operations[210][0] = 8
+operations[210][1] = 3
+operations[210][2] = 12
+operations[210][3] = 5
+operations[210][4] = 1
+
+operations[211][0] = 8
+operations[211][1] = 6
+operations[211][2] = 12
+operations[211][3] = 5
+operations[211][4] = 1
+
+operations[212][0] = 8
+operations[212][1] = 7
+operations[212][2] = 12
+operations[212][3] = 5
+operations[212][4] = 1
+
+operations[213][0] = 9
+operations[213][1] = 5
+operations[213][2] = 12
+operations[213][3] = 5
+operations[213][4] = 1
+
+operations[214][0] = 9
+operations[214][1] = 6
+operations[214][2] = 12
+operations[214][3] = 5
+operations[214][4] = 1
+
+operations[215][0] = 10
+operations[215][1] = 7
+operations[215][2] = 12
+operations[215][3] = 6
+operations[215][4] = 0
+
+operations[216][0] = 0
+operations[216][1] = 5
+operations[216][2] = 12
+operations[216][3] = 6
+operations[216][4] = 1
+
+operations[217][0] = 0
+operations[217][1] = 6
+operations[217][2] = 12
+operations[217][3] = 6
+operations[217][4] = 1
+
+operations[218][0] = 1
+operations[218][1] = 0
+operations[218][2] = 12
+operations[218][3] = 6
+operations[218][4] = 1
+
+operations[219][0] = 1
+operations[219][1] = 2
+operations[219][2] = 12
+operations[219][3] = 6
+operations[219][4] = 1
+
+operations[220][0] = 1
+operations[220][1] = 4
+operations[220][2] = 12
+operations[220][3] = 6
+operations[220][4] = 1
+
+operations[221][0] = 2
+operations[221][1] = 6
+operations[221][2] = 12
+operations[221][3] = 6
+operations[221][4] = 1
+
+operations[222][0] = 3
+operations[222][1] = 0
+operations[222][2] = 12
+operations[222][3] = 6
+operations[222][4] = 1
+
+operations[223][0] = 3
+operations[223][1] = 6
+operations[223][2] = 12
+operations[223][3] = 6
+operations[223][4] = 1
+
+operations[224][0] = 4
+operations[224][1] = 1
+operations[224][2] = 12
+operations[224][3] = 6
+operations[224][4] = 1
+
+operations[225][0] = 4
+operations[225][1] = 2
+operations[225][2] = 12
+operations[225][3] = 6
+operations[225][4] = 1
+
+operations[226][0] = 4
+operations[226][1] = 5
+operations[226][2] = 12
+operations[226][3] = 6
+operations[226][4] = 1
+
+operations[227][0] = 5
+operations[227][1] = 2
+operations[227][2] = 12
+operations[227][3] = 6
+operations[227][4] = 1
+
+operations[228][0] = 5
+operations[228][1] = 3
+operations[228][2] = 12
+operations[228][3] = 6
+operations[228][4] = 1
+
+operations[229][0] = 6
+operations[229][1] = 0
+operations[229][2] = 12
+operations[229][3] = 6
+operations[229][4] = 1
+
+operations[230][0] = 6
+operations[230][1] = 2
+operations[230][2] = 12
+operations[230][3] = 6
+operations[230][4] = 1
+
+operations[231][0] = 6
+operations[231][1] = 3
+operations[231][2] = 12
+operations[231][3] = 6
+operations[231][4] = 1
+
+operations[232][0] = 6
+operations[232][1] = 4
+operations[232][2] = 12
+operations[232][3] = 6
+operations[232][4] = 1
+
+operations[233][0] = 6
+operations[233][1] = 6
+operations[233][2] = 12
+operations[233][3] = 6
+operations[233][4] = 1
+
+operations[234][0] = 7
+operations[234][1] = 1
+operations[234][2] = 12
+operations[234][3] = 6
+operations[234][4] = 1
+
+operations[235][0] = 7
+operations[235][1] = 6
+operations[235][2] = 12
+operations[235][3] = 6
+operations[235][4] = 1
+
+operations[236][0] = 7
+operations[236][1] = 7
+operations[236][2] = 12
+operations[236][3] = 6
+operations[236][4] = 1
+
+operations[237][0] = 8
+operations[237][1] = 0
+operations[237][2] = 12
+operations[237][3] = 6
+operations[237][4] = 1
+
+operations[238][0] = 8
+operations[238][1] = 2
+operations[238][2] = 12
+operations[238][3] = 6
+operations[238][4] = 1
+
+operations[239][0] = 8
+operations[239][1] = 4
+operations[239][2] = 12
+operations[239][3] = 6
+operations[239][4] = 1
+
+operations[240][0] = 8
+operations[240][1] = 7
+operations[240][2] = 12
+operations[240][3] = 6
+operations[240][4] = 1
+
+operations[241][0] = 9
+operations[241][1] = 6
+operations[241][2] = 12
+operations[241][3] = 6
+operations[241][4] = 1
+
+operations[242][0] = 9
+operations[242][1] = 7
+operations[242][2] = 12
+operations[242][3] = 6
+operations[242][4] = 1
+
+operations[243][0] = 10
+operations[243][1] = 1
+operations[243][2] = 11
+operations[243][3] = 0
+operations[243][4] = 0
+
+operations[244][0] = 0
+operations[244][1] = 2
+operations[244][2] = 11
+operations[244][3] = 0
+operations[244][4] = 1
+
+operations[245][0] = 1
+operations[245][1] = 0
+operations[245][2] = 11
+operations[245][3] = 0
+operations[245][4] = 1
+
+operations[246][0] = 1
+operations[246][1] = 4
+operations[246][2] = 11
+operations[246][3] = 0
+operations[246][4] = 1
+
+operations[247][0] = 1
+operations[247][1] = 5
+operations[247][2] = 11
+operations[247][3] = 0
+operations[247][4] = 1
+
+operations[248][0] = 2
+operations[248][1] = 3
+operations[248][2] = 11
+operations[248][3] = 0
+operations[248][4] = 1
+
+operations[249][0] = 3
+operations[249][1] = 0
+operations[249][2] = 11
+operations[249][3] = 0
+operations[249][4] = 1
+
+operations[250][0] = 3
+operations[250][1] = 1
+operations[250][2] = 11
+operations[250][3] = 0
+operations[250][4] = 1
+
+operations[251][0] = 4
+operations[251][1] = 0
+operations[251][2] = 11
+operations[251][3] = 0
+operations[251][4] = 1
+
+operations[252][0] = 4
+operations[252][1] = 2
+operations[252][2] = 11
+operations[252][3] = 0
+operations[252][4] = 1
+
+operations[253][0] = 4
+operations[253][1] = 3
+operations[253][2] = 11
+operations[253][3] = 0
+operations[253][4] = 1
+
+operations[254][0] = 4
+operations[254][1] = 5
+operations[254][2] = 11
+operations[254][3] = 0
+operations[254][4] = 1
+
+operations[255][0] = 4
+operations[255][1] = 7
+operations[255][2] = 11
+operations[255][3] = 0
+operations[255][4] = 1
+
+operations[256][0] = 5
+operations[256][1] = 3
+operations[256][2] = 11
+operations[256][3] = 0
+operations[256][4] = 1
+
+operations[257][0] = 5
+operations[257][1] = 5
+operations[257][2] = 11
+operations[257][3] = 0
+operations[257][4] = 1
+
+operations[258][0] = 5
+operations[258][1] = 7
+operations[258][2] = 11
+operations[258][3] = 0
+operations[258][4] = 1
+
+operations[259][0] = 6
+operations[259][1] = 4
+operations[259][2] = 11
+operations[259][3] = 0
+operations[259][4] = 1
+
+operations[260][0] = 7
+operations[260][1] = 1
+operations[260][2] = 11
+operations[260][3] = 0
+operations[260][4] = 1
+
+operations[261][0] = 7
+operations[261][1] = 3
+operations[261][2] = 11
+operations[261][3] = 0
+operations[261][4] = 1
+
+operations[262][0] = 7
+operations[262][1] = 5
+operations[262][2] = 11
+operations[262][3] = 0
+operations[262][4] = 1
+
+operations[263][0] = 7
+operations[263][1] = 6
+operations[263][2] = 11
+operations[263][3] = 0
+operations[263][4] = 1
+
+operations[264][0] = 7
+operations[264][1] = 7
+operations[264][2] = 11
+operations[264][3] = 0
+operations[264][4] = 1
+
+operations[265][0] = 8
+operations[265][1] = 0
+operations[265][2] = 11
+operations[265][3] = 0
+operations[265][4] = 1
+
+operations[266][0] = 8
+operations[266][1] = 1
+operations[266][2] = 11
+operations[266][3] = 0
+operations[266][4] = 1
+
+operations[267][0] = 8
+operations[267][1] = 5
+operations[267][2] = 11
+operations[267][3] = 0
+operations[267][4] = 1
+
+operations[268][0] = 8
+operations[268][1] = 6
+operations[268][2] = 11
+operations[268][3] = 0
+operations[268][4] = 1
+
+operations[269][0] = 9
+operations[269][1] = 2
+operations[269][2] = 11
+operations[269][3] = 0
+operations[269][4] = 1
+
+operations[270][0] = 9
+operations[270][1] = 3
+operations[270][2] = 11
+operations[270][3] = 0
+operations[270][4] = 1
+
+operations[271][0] = 9
+operations[271][1] = 5
+operations[271][2] = 11
+operations[271][3] = 0
+operations[271][4] = 1
+
+operations[272][0] = 10
+operations[272][1] = 4
+operations[272][2] = 11
+operations[272][3] = 4
+operations[272][4] = 0
+
+operations[273][0] = 0
+operations[273][1] = 5
+operations[273][2] = 11
+operations[273][3] = 4
+operations[273][4] = 1
+
+operations[274][0] = 0
+operations[274][1] = 6
+operations[274][2] = 11
+operations[274][3] = 4
+operations[274][4] = 1
+
+operations[275][0] = 1
+operations[275][1] = 0
+operations[275][2] = 11
+operations[275][3] = 4
+operations[275][4] = 1
+
+operations[276][0] = 1
+operations[276][1] = 1
+operations[276][2] = 11
+operations[276][3] = 4
+operations[276][4] = 1
+
+operations[277][0] = 1
+operations[277][1] = 4
+operations[277][2] = 11
+operations[277][3] = 4
+operations[277][4] = 1
+
+operations[278][0] = 1
+operations[278][1] = 5
+operations[278][2] = 11
+operations[278][3] = 4
+operations[278][4] = 1
+
+operations[279][0] = 1
+operations[279][1] = 7
+operations[279][2] = 11
+operations[279][3] = 4
+operations[279][4] = 1
+
+operations[280][0] = 2
+operations[280][1] = 7
+operations[280][2] = 11
+operations[280][3] = 4
+operations[280][4] = 1
+
+operations[281][0] = 4
+operations[281][1] = 1
+operations[281][2] = 11
+operations[281][3] = 4
+operations[281][4] = 1
+
+operations[282][0] = 4
+operations[282][1] = 3
+operations[282][2] = 11
+operations[282][3] = 4
+operations[282][4] = 1
+
+operations[283][0] = 4
+operations[283][1] = 5
+operations[283][2] = 11
+operations[283][3] = 4
+operations[283][4] = 1
+
+operations[284][0] = 4
+operations[284][1] = 7
+operations[284][2] = 11
+operations[284][3] = 4
+operations[284][4] = 1
+
+operations[285][0] = 5
+operations[285][1] = 1
+operations[285][2] = 11
+operations[285][3] = 4
+operations[285][4] = 1
+
+operations[286][0] = 5
+operations[286][1] = 3
+operations[286][2] = 11
+operations[286][3] = 4
+operations[286][4] = 1
+
+operations[287][0] = 5
+operations[287][1] = 5
+operations[287][2] = 11
+operations[287][3] = 4
+operations[287][4] = 1
+
+operations[288][0] = 5
+operations[288][1] = 6
+operations[288][2] = 11
+operations[288][3] = 4
+operations[288][4] = 1
+
+operations[289][0] = 5
+operations[289][1] = 7
+operations[289][2] = 11
+operations[289][3] = 4
+operations[289][4] = 1
+
+operations[290][0] = 6
+operations[290][1] = 0
+operations[290][2] = 11
+operations[290][3] = 4
+operations[290][4] = 1
+
+operations[291][0] = 6
+operations[291][1] = 6
+operations[291][2] = 11
+operations[291][3] = 4
+operations[291][4] = 1
+
+operations[292][0] = 7
+operations[292][1] = 1
+operations[292][2] = 11
+operations[292][3] = 4
+operations[292][4] = 1
+
+operations[293][0] = 7
+operations[293][1] = 2
+operations[293][2] = 11
+operations[293][3] = 4
+operations[293][4] = 1
+
+operations[294][0] = 7
+operations[294][1] = 3
+operations[294][2] = 11
+operations[294][3] = 4
+operations[294][4] = 1
+
+operations[295][0] = 8
+operations[295][1] = 1
+operations[295][2] = 11
+operations[295][3] = 4
+operations[295][4] = 1
+
+operations[296][0] = 8
+operations[296][1] = 2
+operations[296][2] = 11
+operations[296][3] = 4
+operations[296][4] = 1
+
+operations[297][0] = 8
+operations[297][1] = 5
+operations[297][2] = 11
+operations[297][3] = 4
+operations[297][4] = 1
+
+operations[298][0] = 9
+operations[298][1] = 1
+operations[298][2] = 11
+operations[298][3] = 4
+operations[298][4] = 1
+
+operations[299][0] = 9
+operations[299][1] = 4
+operations[299][2] = 11
+operations[299][3] = 4
+operations[299][4] = 1
+
+operations[300][0] = 9
+operations[300][1] = 5
+operations[300][2] = 11
+operations[300][3] = 4
+operations[300][4] = 1
+
+operations[301][0] = 10
+operations[301][1] = 2
+operations[301][2] = 11
+operations[301][3] = 1
+operations[301][4] = 0
+
+operations[302][0] = 0
+operations[302][1] = 3
+operations[302][2] = 11
+operations[302][3] = 1
+operations[302][4] = 1
+
+operations[303][0] = 1
+operations[303][1] = 0
+operations[303][2] = 11
+operations[303][3] = 1
+operations[303][4] = 1
+
+operations[304][0] = 1
+operations[304][1] = 1
+operations[304][2] = 11
+operations[304][3] = 1
+operations[304][4] = 1
+
+operations[305][0] = 1
+operations[305][1] = 5
+operations[305][2] = 11
+operations[305][3] = 1
+operations[305][4] = 1
+
+operations[306][0] = 1
+operations[306][1] = 6
+operations[306][2] = 11
+operations[306][3] = 1
+operations[306][4] = 1
+
+operations[307][0] = 2
+operations[307][1] = 4
+operations[307][2] = 11
+operations[307][3] = 1
+operations[307][4] = 1
+
+operations[308][0] = 3
+operations[308][1] = 1
+operations[308][2] = 11
+operations[308][3] = 1
+operations[308][4] = 1
+
+operations[309][0] = 3
+operations[309][1] = 2
+operations[309][2] = 11
+operations[309][3] = 1
+operations[309][4] = 1
+
+operations[310][0] = 4
+operations[310][1] = 1
+operations[310][2] = 11
+operations[310][3] = 1
+operations[310][4] = 1
+
+operations[311][0] = 4
+operations[311][1] = 3
+operations[311][2] = 11
+operations[311][3] = 1
+operations[311][4] = 1
+
+operations[312][0] = 4
+operations[312][1] = 4
+operations[312][2] = 11
+operations[312][3] = 1
+operations[312][4] = 1
+
+operations[313][0] = 4
+operations[313][1] = 6
+operations[313][2] = 11
+operations[313][3] = 1
+operations[313][4] = 1
+
+operations[314][0] = 5
+operations[314][1] = 0
+operations[314][2] = 11
+operations[314][3] = 1
+operations[314][4] = 1
+
+operations[315][0] = 5
+operations[315][1] = 4
+operations[315][2] = 11
+operations[315][3] = 1
+operations[315][4] = 1
+
+operations[316][0] = 5
+operations[316][1] = 6
+operations[316][2] = 11
+operations[316][3] = 1
+operations[316][4] = 1
+
+operations[317][0] = 6
+operations[317][1] = 0
+operations[317][2] = 11
+operations[317][3] = 1
+operations[317][4] = 1
+
+operations[318][0] = 6
+operations[318][1] = 5
+operations[318][2] = 11
+operations[318][3] = 1
+operations[318][4] = 1
+
+operations[319][0] = 7
+operations[319][1] = 2
+operations[319][2] = 11
+operations[319][3] = 1
+operations[319][4] = 1
+
+operations[320][0] = 7
+operations[320][1] = 4
+operations[320][2] = 11
+operations[320][3] = 1
+operations[320][4] = 1
+
+operations[321][0] = 7
+operations[321][1] = 6
+operations[321][2] = 11
+operations[321][3] = 1
+operations[321][4] = 1
+
+operations[322][0] = 7
+operations[322][1] = 7
+operations[322][2] = 11
+operations[322][3] = 1
+operations[322][4] = 1
+
+operations[323][0] = 8
+operations[323][1] = 1
+operations[323][2] = 11
+operations[323][3] = 1
+operations[323][4] = 1
+
+operations[324][0] = 8
+operations[324][1] = 2
+operations[324][2] = 11
+operations[324][3] = 1
+operations[324][4] = 1
+
+operations[325][0] = 8
+operations[325][1] = 6
+operations[325][2] = 11
+operations[325][3] = 1
+operations[325][4] = 1
+
+operations[326][0] = 8
+operations[326][1] = 7
+operations[326][2] = 11
+operations[326][3] = 1
+operations[326][4] = 1
+
+operations[327][0] = 9
+operations[327][1] = 0
+operations[327][2] = 11
+operations[327][3] = 1
+operations[327][4] = 1
+
+operations[328][0] = 9
+operations[328][1] = 3
+operations[328][2] = 11
+operations[328][3] = 1
+operations[328][4] = 1
+
+operations[329][0] = 9
+operations[329][1] = 4
+operations[329][2] = 11
+operations[329][3] = 1
+operations[329][4] = 1
+
+operations[330][0] = 9
+operations[330][1] = 6
+operations[330][2] = 11
+operations[330][3] = 1
+operations[330][4] = 1
+
+operations[331][0] = 10
+operations[331][1] = 3
+operations[331][2] = 11
+operations[331][3] = 3
+operations[331][4] = 0
+
+operations[332][0] = 0
+operations[332][1] = 0
+operations[332][2] = 11
+operations[332][3] = 3
+operations[332][4] = 1
+
+operations[333][0] = 0
+operations[333][1] = 1
+operations[333][2] = 11
+operations[333][3] = 3
+operations[333][4] = 1
+
+operations[334][0] = 0
+operations[334][1] = 4
+operations[334][2] = 11
+operations[334][3] = 3
+operations[334][4] = 1
+
+operations[335][0] = 0
+operations[335][1] = 5
+operations[335][2] = 11
+operations[335][3] = 3
+operations[335][4] = 1
+
+operations[336][0] = 1
+operations[336][1] = 6
+operations[336][2] = 11
+operations[336][3] = 3
+operations[336][4] = 1
+
+operations[337][0] = 1
+operations[337][1] = 7
+operations[337][2] = 11
+operations[337][3] = 3
+operations[337][4] = 1
+
+operations[338][0] = 2
+operations[338][1] = 0
+operations[338][2] = 11
+operations[338][3] = 3
+operations[338][4] = 1
+
+operations[339][0] = 2
+operations[339][1] = 2
+operations[339][2] = 11
+operations[339][3] = 3
+operations[339][4] = 1
+
+operations[340][0] = 2
+operations[340][1] = 6
+operations[340][2] = 11
+operations[340][3] = 3
+operations[340][4] = 1
+
+operations[341][0] = 4
+operations[341][1] = 1
+operations[341][2] = 11
+operations[341][3] = 3
+operations[341][4] = 1
+
+operations[342][0] = 4
+operations[342][1] = 7
+operations[342][2] = 11
+operations[342][3] = 3
+operations[342][4] = 1
+
+operations[343][0] = 5
+operations[343][1] = 5
+operations[343][2] = 11
+operations[343][3] = 3
+operations[343][4] = 1
+
+operations[344][0] = 5
+operations[344][1] = 7
+operations[344][2] = 11
+operations[344][3] = 3
+operations[344][4] = 1
+
+operations[345][0] = 6
+operations[345][1] = 0
+operations[345][2] = 11
+operations[345][3] = 3
+operations[345][4] = 1
+
+operations[346][0] = 6
+operations[346][1] = 3
+operations[346][2] = 11
+operations[346][3] = 3
+operations[346][4] = 1
+
+operations[347][0] = 6
+operations[347][1] = 5
+operations[347][2] = 11
+operations[347][3] = 3
+operations[347][4] = 1
+
+operations[348][0] = 6
+operations[348][1] = 7
+operations[348][2] = 11
+operations[348][3] = 3
+operations[348][4] = 1
+
+operations[349][0] = 7
+operations[349][1] = 0
+operations[349][2] = 11
+operations[349][3] = 3
+operations[349][4] = 1
+
+operations[350][0] = 7
+operations[350][1] = 1
+operations[350][2] = 11
+operations[350][3] = 3
+operations[350][4] = 1
+
+operations[351][0] = 7
+operations[351][1] = 4
+operations[351][2] = 11
+operations[351][3] = 3
+operations[351][4] = 1
+
+operations[352][0] = 7
+operations[352][1] = 5
+operations[352][2] = 11
+operations[352][3] = 3
+operations[352][4] = 1
+
+operations[353][0] = 7
+operations[353][1] = 6
+operations[353][2] = 11
+operations[353][3] = 3
+operations[353][4] = 1
+
+operations[354][0] = 8
+operations[354][1] = 0
+operations[354][2] = 11
+operations[354][3] = 3
+operations[354][4] = 1
+
+operations[355][0] = 8
+operations[355][1] = 1
+operations[355][2] = 11
+operations[355][3] = 3
+operations[355][4] = 1
+
+operations[356][0] = 8
+operations[356][1] = 5
+operations[356][2] = 11
+operations[356][3] = 3
+operations[356][4] = 1
+
+operations[357][0] = 8
+operations[357][1] = 7
+operations[357][2] = 11
+operations[357][3] = 3
+operations[357][4] = 1
+
+operations[358][0] = 9
+operations[358][1] = 1
+operations[358][2] = 11
+operations[358][3] = 3
+operations[358][4] = 1
+
+operations[359][0] = 9
+operations[359][1] = 2
+operations[359][2] = 11
+operations[359][3] = 3
+operations[359][4] = 1
+
+operations[360][0] = 9
+operations[360][1] = 3
+operations[360][2] = 11
+operations[360][3] = 3
+operations[360][4] = 1
+
+operations[361][0] = 10
+operations[361][1] = 5
+operations[361][2] = 11
+operations[361][3] = 5
+operations[361][4] = 0
+
+operations[362][0] = 0
+operations[362][1] = 6
+operations[362][2] = 11
+operations[362][3] = 5
+operations[362][4] = 1
+
+operations[363][0] = 0
+operations[363][1] = 7
+operations[363][2] = 11
+operations[363][3] = 5
+operations[363][4] = 1
+
+operations[364][0] = 1
+operations[364][1] = 1
+operations[364][2] = 11
+operations[364][3] = 5
+operations[364][4] = 1
+
+operations[365][0] = 1
+operations[365][1] = 2
+operations[365][2] = 11
+operations[365][3] = 5
+operations[365][4] = 1
+
+operations[366][0] = 1
+operations[366][1] = 5
+operations[366][2] = 11
+operations[366][3] = 5
+operations[366][4] = 1
+
+operations[367][0] = 1
+operations[367][1] = 6
+operations[367][2] = 11
+operations[367][3] = 5
+operations[367][4] = 1
+
+operations[368][0] = 2
+operations[368][1] = 0
+operations[368][2] = 11
+operations[368][3] = 5
+operations[368][4] = 1
+
+operations[369][0] = 4
+operations[369][1] = 0
+operations[369][2] = 11
+operations[369][3] = 5
+operations[369][4] = 1
+
+operations[370][0] = 4
+operations[370][1] = 2
+operations[370][2] = 11
+operations[370][3] = 5
+operations[370][4] = 1
+
+operations[371][0] = 4
+operations[371][1] = 4
+operations[371][2] = 11
+operations[371][3] = 5
+operations[371][4] = 1
+
+operations[372][0] = 4
+operations[372][1] = 6
+operations[372][2] = 11
+operations[372][3] = 5
+operations[372][4] = 1
+
+operations[373][0] = 5
+operations[373][1] = 0
+operations[373][2] = 11
+operations[373][3] = 5
+operations[373][4] = 1
+
+operations[374][0] = 5
+operations[374][1] = 2
+operations[374][2] = 11
+operations[374][3] = 5
+operations[374][4] = 1
+
+operations[375][0] = 5
+operations[375][1] = 4
+operations[375][2] = 11
+operations[375][3] = 5
+operations[375][4] = 1
+
+operations[376][0] = 5
+operations[376][1] = 6
+operations[376][2] = 11
+operations[376][3] = 5
+operations[376][4] = 1
+
+operations[377][0] = 5
+operations[377][1] = 7
+operations[377][2] = 11
+operations[377][3] = 5
+operations[377][4] = 1
+
+operations[378][0] = 6
+operations[378][1] = 1
+operations[378][2] = 11
+operations[378][3] = 5
+operations[378][4] = 1
+
+operations[379][0] = 6
+operations[379][1] = 7
+operations[379][2] = 11
+operations[379][3] = 5
+operations[379][4] = 1
+
+operations[380][0] = 7
+operations[380][1] = 0
+operations[380][2] = 11
+operations[380][3] = 5
+operations[380][4] = 1
+
+operations[381][0] = 7
+operations[381][1] = 2
+operations[381][2] = 11
+operations[381][3] = 5
+operations[381][4] = 1
+
+operations[382][0] = 7
+operations[382][1] = 3
+operations[382][2] = 11
+operations[382][3] = 5
+operations[382][4] = 1
+
+operations[383][0] = 7
+operations[383][1] = 4
+operations[383][2] = 11
+operations[383][3] = 5
+operations[383][4] = 1
+
+operations[384][0] = 8
+operations[384][1] = 2
+operations[384][2] = 11
+operations[384][3] = 5
+operations[384][4] = 1
+
+operations[385][0] = 8
+operations[385][1] = 3
+operations[385][2] = 11
+operations[385][3] = 5
+operations[385][4] = 1
+
+operations[386][0] = 8
+operations[386][1] = 6
+operations[386][2] = 11
+operations[386][3] = 5
+operations[386][4] = 1
+
+operations[387][0] = 9
+operations[387][1] = 0
+operations[387][2] = 11
+operations[387][3] = 5
+operations[387][4] = 1
+
+operations[388][0] = 9
+operations[388][1] = 2
+operations[388][2] = 11
+operations[388][3] = 5
+operations[388][4] = 1
+
+operations[389][0] = 9
+operations[389][1] = 5
+operations[389][2] = 11
+operations[389][3] = 5
+operations[389][4] = 1
+
+operations[390][0] = 9
+operations[390][1] = 6
+operations[390][2] = 11
+operations[390][3] = 5
+operations[390][4] = 1
+
+operations[391][0] = 10
+operations[391][1] = 6
+operations[391][2] = 11
+operations[391][3] = 6
+operations[391][4] = 0
+
+operations[392][0] = 0
+operations[392][1] = 0
+operations[392][2] = 11
+operations[392][3] = 6
+operations[392][4] = 1
+
+operations[393][0] = 0
+operations[393][1] = 7
+operations[393][2] = 11
+operations[393][3] = 6
+operations[393][4] = 1
+
+operations[394][0] = 1
+operations[394][1] = 2
+operations[394][2] = 11
+operations[394][3] = 6
+operations[394][4] = 1
+
+operations[395][0] = 1
+operations[395][1] = 3
+operations[395][2] = 11
+operations[395][3] = 6
+operations[395][4] = 1
+
+operations[396][0] = 1
+operations[396][1] = 6
+operations[396][2] = 11
+operations[396][3] = 6
+operations[396][4] = 1
+
+operations[397][0] = 1
+operations[397][1] = 7
+operations[397][2] = 11
+operations[397][3] = 6
+operations[397][4] = 1
+
+operations[398][0] = 2
+operations[398][1] = 1
+operations[398][2] = 11
+operations[398][3] = 6
+operations[398][4] = 1
+
+operations[399][0] = 4
+operations[399][1] = 0
+operations[399][2] = 11
+operations[399][3] = 6
+operations[399][4] = 1
+
+operations[400][0] = 4
+operations[400][1] = 1
+operations[400][2] = 11
+operations[400][3] = 6
+operations[400][4] = 1
+
+operations[401][0] = 4
+operations[401][1] = 3
+operations[401][2] = 11
+operations[401][3] = 6
+operations[401][4] = 1
+
+operations[402][0] = 4
+operations[402][1] = 5
+operations[402][2] = 11
+operations[402][3] = 6
+operations[402][4] = 1
+
+operations[403][0] = 4
+operations[403][1] = 7
+operations[403][2] = 11
+operations[403][3] = 6
+operations[403][4] = 1
+
+operations[404][0] = 5
+operations[404][1] = 1
+operations[404][2] = 11
+operations[404][3] = 6
+operations[404][4] = 1
+
+operations[405][0] = 5
+operations[405][1] = 3
+operations[405][2] = 11
+operations[405][3] = 6
+operations[405][4] = 1
+
+operations[406][0] = 5
+operations[406][1] = 5
+operations[406][2] = 11
+operations[406][3] = 6
+operations[406][4] = 1
+
+operations[407][0] = 5
+operations[407][1] = 7
+operations[407][2] = 11
+operations[407][3] = 6
+operations[407][4] = 1
+
+operations[408][0] = 6
+operations[408][1] = 2
+operations[408][2] = 11
+operations[408][3] = 6
+operations[408][4] = 1
+
+operations[409][0] = 7
+operations[409][1] = 1
+operations[409][2] = 11
+operations[409][3] = 6
+operations[409][4] = 1
+
+operations[410][0] = 7
+operations[410][1] = 3
+operations[410][2] = 11
+operations[410][3] = 6
+operations[410][4] = 1
+
+operations[411][0] = 7
+operations[411][1] = 4
+operations[411][2] = 11
+operations[411][3] = 6
+operations[411][4] = 1
+
+operations[412][0] = 7
+operations[412][1] = 5
+operations[412][2] = 11
+operations[412][3] = 6
+operations[412][4] = 1
+
+operations[413][0] = 8
+operations[413][1] = 3
+operations[413][2] = 11
+operations[413][3] = 6
+operations[413][4] = 1
+
+operations[414][0] = 8
+operations[414][1] = 4
+operations[414][2] = 11
+operations[414][3] = 6
+operations[414][4] = 1
+
+operations[415][0] = 8
+operations[415][1] = 7
+operations[415][2] = 11
+operations[415][3] = 6
+operations[415][4] = 1
+
+operations[416][0] = 9
+operations[416][1] = 0
+operations[416][2] = 11
+operations[416][3] = 6
+operations[416][4] = 1
+
+operations[417][0] = 9
+operations[417][1] = 1
+operations[417][2] = 11
+operations[417][3] = 6
+operations[417][4] = 1
+
+operations[418][0] = 9
+operations[418][1] = 3
+operations[418][2] = 11
+operations[418][3] = 6
+operations[418][4] = 1
+
+operations[419][0] = 9
+operations[419][1] = 6
+operations[419][2] = 11
+operations[419][3] = 6
+operations[419][4] = 1
+
+operations[420][0] = 9
+operations[420][1] = 7
+operations[420][2] = 11
+operations[420][3] = 6
+operations[420][4] = 1
+
+operations[421][0] = 10
+operations[421][1] = 7
+operations[421][2] = 11
+operations[421][3] = 7
+operations[421][4] = 0
+
+operations[422][0] = 0
+operations[422][1] = 0
+operations[422][2] = 11
+operations[422][3] = 7
+operations[422][4] = 1
+
+operations[423][0] = 0
+operations[423][1] = 1
+operations[423][2] = 11
+operations[423][3] = 7
+operations[423][4] = 1
+
+operations[424][0] = 1
+operations[424][1] = 0
+operations[424][2] = 11
+operations[424][3] = 7
+operations[424][4] = 1
+
+operations[425][0] = 1
+operations[425][1] = 3
+operations[425][2] = 11
+operations[425][3] = 7
+operations[425][4] = 1
+
+operations[426][0] = 1
+operations[426][1] = 4
+operations[426][2] = 11
+operations[426][3] = 7
+operations[426][4] = 1
+
+operations[427][0] = 1
+operations[427][1] = 7
+operations[427][2] = 11
+operations[427][3] = 7
+operations[427][4] = 1
+
+operations[428][0] = 2
+operations[428][1] = 0
+operations[428][2] = 11
+operations[428][3] = 7
+operations[428][4] = 1
+
+operations[429][0] = 2
+operations[429][1] = 2
+operations[429][2] = 11
+operations[429][3] = 7
+operations[429][4] = 1
+
+operations[430][0] = 4
+operations[430][1] = 0
+operations[430][2] = 11
+operations[430][3] = 7
+operations[430][4] = 1
+
+operations[431][0] = 4
+operations[431][1] = 1
+operations[431][2] = 11
+operations[431][3] = 7
+operations[431][4] = 1
+
+operations[432][0] = 4
+operations[432][1] = 2
+operations[432][2] = 11
+operations[432][3] = 7
+operations[432][4] = 1
+
+operations[433][0] = 4
+operations[433][1] = 4
+operations[433][2] = 11
+operations[433][3] = 7
+operations[433][4] = 1
+
+operations[434][0] = 4
+operations[434][1] = 6
+operations[434][2] = 11
+operations[434][3] = 7
+operations[434][4] = 1
+
+operations[435][0] = 5
+operations[435][1] = 0
+operations[435][2] = 11
+operations[435][3] = 7
+operations[435][4] = 1
+
+operations[436][0] = 5
+operations[436][1] = 2
+operations[436][2] = 11
+operations[436][3] = 7
+operations[436][4] = 1
+
+operations[437][0] = 5
+operations[437][1] = 4
+operations[437][2] = 11
+operations[437][3] = 7
+operations[437][4] = 1
+
+operations[438][0] = 5
+operations[438][1] = 6
+operations[438][2] = 11
+operations[438][3] = 7
+operations[438][4] = 1
+
+operations[439][0] = 6
+operations[439][1] = 0
+operations[439][2] = 11
+operations[439][3] = 7
+operations[439][4] = 1
+
+operations[440][0] = 6
+operations[440][1] = 3
+operations[440][2] = 11
+operations[440][3] = 7
+operations[440][4] = 1
+
+operations[441][0] = 7
+operations[441][1] = 2
+operations[441][2] = 11
+operations[441][3] = 7
+operations[441][4] = 1
+
+operations[442][0] = 7
+operations[442][1] = 4
+operations[442][2] = 11
+operations[442][3] = 7
+operations[442][4] = 1
+
+operations[443][0] = 7
+operations[443][1] = 5
+operations[443][2] = 11
+operations[443][3] = 7
+operations[443][4] = 1
+
+operations[444][0] = 7
+operations[444][1] = 6
+operations[444][2] = 11
+operations[444][3] = 7
+operations[444][4] = 1
+
+operations[445][0] = 8
+operations[445][1] = 4
+operations[445][2] = 11
+operations[445][3] = 7
+operations[445][4] = 1
+
+operations[446][0] = 8
+operations[446][1] = 5
+operations[446][2] = 11
+operations[446][3] = 7
+operations[446][4] = 1
+
+operations[447][0] = 9
+operations[447][1] = 0
+operations[447][2] = 11
+operations[447][3] = 7
+operations[447][4] = 1
+
+operations[448][0] = 9
+operations[448][1] = 1
+operations[448][2] = 11
+operations[448][3] = 7
+operations[448][4] = 1
+
+operations[449][0] = 9
+operations[449][1] = 2
+operations[449][2] = 11
+operations[449][3] = 7
+operations[449][4] = 1
+
+operations[450][0] = 9
+operations[450][1] = 4
+operations[450][2] = 11
+operations[450][3] = 7
+operations[450][4] = 1
+
+operations[451][0] = 9
+operations[451][1] = 7
+operations[451][2] = 11
+operations[451][3] = 7
+operations[451][4] = 1
+
+operations[452][0] = 11
+operations[452][1] = 5
+operations[452][2] = 12
+operations[452][3] = 2
+operations[452][4] = 0
+
+operations[453][0] = 0
+operations[453][1] = 0
+operations[453][2] = 12
+operations[453][3] = 2
+operations[453][4] = 1
+
+operations[454][0] = 0
+operations[454][1] = 1
+operations[454][2] = 12
+operations[454][3] = 2
+operations[454][4] = 1
+
+operations[455][0] = 0
+operations[455][1] = 2
+operations[455][2] = 12
+operations[455][3] = 2
+operations[455][4] = 1
+
+operations[456][0] = 0
+operations[456][1] = 3
+operations[456][2] = 12
+operations[456][3] = 2
+operations[456][4] = 1
+
+operations[457][0] = 0
+operations[457][1] = 5
+operations[457][2] = 12
+operations[457][3] = 2
+operations[457][4] = 1
+
+operations[458][0] = 0
+operations[458][1] = 6
+operations[458][2] = 12
+operations[458][3] = 2
+operations[458][4] = 1
+
+operations[459][0] = 1
+operations[459][1] = 6
+operations[459][2] = 12
+operations[459][3] = 2
+operations[459][4] = 1
+
+operations[460][0] = 2
+operations[460][1] = 2
+operations[460][2] = 12
+operations[460][3] = 2
+operations[460][4] = 1
+
+operations[461][0] = 2
+operations[461][1] = 3
+operations[461][2] = 12
+operations[461][3] = 2
+operations[461][4] = 1
+
+operations[462][0] = 2
+operations[462][1] = 5
+operations[462][2] = 12
+operations[462][3] = 2
+operations[462][4] = 1
+
+operations[463][0] = 3
+operations[463][1] = 1
+operations[463][2] = 12
+operations[463][3] = 2
+operations[463][4] = 1
+
+operations[464][0] = 3
+operations[464][1] = 2
+operations[464][2] = 12
+operations[464][3] = 2
+operations[464][4] = 1
+
+operations[465][0] = 3
+operations[465][1] = 3
+operations[465][2] = 12
+operations[465][3] = 2
+operations[465][4] = 1
+
+operations[466][0] = 3
+operations[466][1] = 4
+operations[466][2] = 12
+operations[466][3] = 2
+operations[466][4] = 1
+
+operations[467][0] = 3
+operations[467][1] = 5
+operations[467][2] = 12
+operations[467][3] = 2
+operations[467][4] = 1
+
+operations[468][0] = 4
+operations[468][1] = 2
+operations[468][2] = 12
+operations[468][3] = 2
+operations[468][4] = 1
+
+operations[469][0] = 4
+operations[469][1] = 7
+operations[469][2] = 12
+operations[469][3] = 2
+operations[469][4] = 1
+
+operations[470][0] = 5
+operations[470][1] = 3
+operations[470][2] = 12
+operations[470][3] = 2
+operations[470][4] = 1
+
+operations[471][0] = 6
+operations[471][1] = 0
+operations[471][2] = 12
+operations[471][3] = 2
+operations[471][4] = 1
+
+operations[472][0] = 6
+operations[472][1] = 3
+operations[472][2] = 12
+operations[472][3] = 2
+operations[472][4] = 1
+
+operations[473][0] = 7
+operations[473][1] = 1
+operations[473][2] = 12
+operations[473][3] = 2
+operations[473][4] = 1
+
+operations[474][0] = 7
+operations[474][1] = 2
+operations[474][2] = 12
+operations[474][3] = 2
+operations[474][4] = 1
+
+operations[475][0] = 7
+operations[475][1] = 3
+operations[475][2] = 12
+operations[475][3] = 2
+operations[475][4] = 1
+
+operations[476][0] = 7
+operations[476][1] = 4
+operations[476][2] = 12
+operations[476][3] = 2
+operations[476][4] = 1
+
+operations[477][0] = 8
+operations[477][1] = 0
+operations[477][2] = 12
+operations[477][3] = 2
+operations[477][4] = 1
+
+operations[478][0] = 8
+operations[478][1] = 1
+operations[478][2] = 12
+operations[478][3] = 2
+operations[478][4] = 1
+
+operations[479][0] = 8
+operations[479][1] = 5
+operations[479][2] = 12
+operations[479][3] = 2
+operations[479][4] = 1
+
+operations[480][0] = 8
+operations[480][1] = 6
+operations[480][2] = 12
+operations[480][3] = 2
+operations[480][4] = 1
+
+operations[481][0] = 9
+operations[481][1] = 0
+operations[481][2] = 12
+operations[481][3] = 2
+operations[481][4] = 1
+
+operations[482][0] = 9
+operations[482][1] = 6
+operations[482][2] = 12
+operations[482][3] = 2
+operations[482][4] = 1
+
+operations[483][0] = 10
+operations[483][1] = 5
+operations[483][2] = 12
+operations[483][3] = 4
+operations[483][4] = 0
+
+operations[484][0] = 0
+operations[484][1] = 3
+operations[484][2] = 12
+operations[484][3] = 4
+operations[484][4] = 1
+
+operations[485][0] = 0
+operations[485][1] = 4
+operations[485][2] = 12
+operations[485][3] = 4
+operations[485][4] = 1
+
+operations[486][0] = 0
+operations[486][1] = 7
+operations[486][2] = 12
+operations[486][3] = 4
+operations[486][4] = 1
+
+operations[487][0] = 1
+operations[487][1] = 0
+operations[487][2] = 12
+operations[487][3] = 4
+operations[487][4] = 1
+
+operations[488][0] = 1
+operations[488][1] = 2
+operations[488][2] = 12
+operations[488][3] = 4
+operations[488][4] = 1
+
+operations[489][0] = 1
+operations[489][1] = 6
+operations[489][2] = 12
+operations[489][3] = 4
+operations[489][4] = 1
+
+operations[490][0] = 1
+operations[490][1] = 7
+operations[490][2] = 12
+operations[490][3] = 4
+operations[490][4] = 1
+
+operations[491][0] = 2
+operations[491][1] = 4
+operations[491][2] = 12
+operations[491][3] = 4
+operations[491][4] = 1
+
+operations[492][0] = 3
+operations[492][1] = 4
+operations[492][2] = 12
+operations[492][3] = 4
+operations[492][4] = 1
+
+operations[493][0] = 3
+operations[493][1] = 6
+operations[493][2] = 12
+operations[493][3] = 4
+operations[493][4] = 1
+
+operations[494][0] = 4
+operations[494][1] = 0
+operations[494][2] = 12
+operations[494][3] = 4
+operations[494][4] = 1
+
+operations[495][0] = 4
+operations[495][1] = 3
+operations[495][2] = 12
+operations[495][3] = 4
+operations[495][4] = 1
+
+operations[496][0] = 4
+operations[496][1] = 6
+operations[496][2] = 12
+operations[496][3] = 4
+operations[496][4] = 1
+
+operations[497][0] = 5
+operations[497][1] = 0
+operations[497][2] = 12
+operations[497][3] = 4
+operations[497][4] = 1
+
+operations[498][0] = 5
+operations[498][1] = 1
+operations[498][2] = 12
+operations[498][3] = 4
+operations[498][4] = 1
+
+operations[499][0] = 5
+operations[499][1] = 7
+operations[499][2] = 12
+operations[499][3] = 4
+operations[499][4] = 1
+
+operations[500][0] = 6
+operations[500][1] = 0
+operations[500][2] = 12
+operations[500][3] = 4
+operations[500][4] = 1
+
+operations[501][0] = 6
+operations[501][1] = 1
+operations[501][2] = 12
+operations[501][3] = 4
+operations[501][4] = 1
+
+operations[502][0] = 6
+operations[502][1] = 2
+operations[502][2] = 12
+operations[502][3] = 4
+operations[502][4] = 1
+
+operations[503][0] = 6
+operations[503][1] = 4
+operations[503][2] = 12
+operations[503][3] = 4
+operations[503][4] = 1
+
+operations[504][0] = 7
+operations[504][1] = 4
+operations[504][2] = 12
+operations[504][3] = 4
+operations[504][4] = 1
+
+operations[505][0] = 7
+operations[505][1] = 5
+operations[505][2] = 12
+operations[505][3] = 4
+operations[505][4] = 1
+
+operations[506][0] = 7
+operations[506][1] = 7
+operations[506][2] = 12
+operations[506][3] = 4
+operations[506][4] = 1
+
+operations[507][0] = 8
+operations[507][1] = 0
+operations[507][2] = 12
+operations[507][3] = 4
+operations[507][4] = 1
+
+operations[508][0] = 8
+operations[508][1] = 2
+operations[508][2] = 12
+operations[508][3] = 4
+operations[508][4] = 1
+
+operations[509][0] = 8
+operations[509][1] = 5
+operations[509][2] = 12
+operations[509][3] = 4
+operations[509][4] = 1
+
+operations[510][0] = 8
+operations[510][1] = 6
+operations[510][2] = 12
+operations[510][3] = 4
+operations[510][4] = 1
+
+operations[511][0] = 8
+operations[511][1] = 7
+operations[511][2] = 12
+operations[511][3] = 4
+operations[511][4] = 1
+
+operations[512][0] = 9
+operations[512][1] = 4
+operations[512][2] = 12
+operations[512][3] = 4
+operations[512][4] = 1
+
+operations[513][0] = 9
+operations[513][1] = 5
+operations[513][2] = 12
+operations[513][3] = 4
+operations[513][4] = 1
+
+operations[514][0] = 10
+operations[514][1] = 0
+operations[514][2] = 11
+operations[514][3] = 2
+operations[514][4] = 0
+
+operations[515][0] = 0
+operations[515][1] = 0
+operations[515][2] = 11
+operations[515][3] = 2
+operations[515][4] = 1
+
+operations[516][0] = 0
+operations[516][1] = 1
+operations[516][2] = 11
+operations[516][3] = 2
+operations[516][4] = 1
+
+operations[517][0] = 0
+operations[517][1] = 2
+operations[517][2] = 11
+operations[517][3] = 2
+operations[517][4] = 1
+
+operations[518][0] = 0
+operations[518][1] = 3
+operations[518][2] = 11
+operations[518][3] = 2
+operations[518][4] = 1
+
+operations[519][0] = 0
+operations[519][1] = 4
+operations[519][2] = 11
+operations[519][3] = 2
+operations[519][4] = 1
+
+operations[520][0] = 1
+operations[520][1] = 2
+operations[520][2] = 11
+operations[520][3] = 2
+operations[520][4] = 1
+
+operations[521][0] = 1
+operations[521][1] = 3
+operations[521][2] = 11
+operations[521][3] = 2
+operations[521][4] = 1
+
+operations[522][0] = 1
+operations[522][1] =

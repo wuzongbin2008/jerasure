@@ -1,0 +1,71 @@
+# depslib dependency file v1.0
+1403158123 source:/project/c/erasure_code/Reed-solomon/Jerasure/Examples/decoder.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	<sys/time.h>
+	<sys/stat.h>
+	<signal.h>
+	"jerasure.h"
+	"reed_sol.h"
+	"galois.h"
+	"cauchy.h"
+	"liberation.h"
+
+1409022020 source:/project/c/erasure_code/Reed-solomon/Jerasure/Examples/cauchy_04_t.c
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	<string.h>
+	<gf_rand.h>
+	"jerasure.h"
+	"cauchy.h"
+
+1403158123 source:/project/c/erasure_code/Reed-solomon/Jerasure/src/cauchy.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"galois.h"
+	"jerasure.h"
+	"cauchy.h"
+
+1403158123 source:/project/c/erasure_code/Reed-solomon/Jerasure/src/galois.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"galois.h"
+
+1409023891 source:/project/c/erasure_code/Reed-solomon/Jerasure/src/jerasure.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"galois.h"
+	"jerasure.h"
+
+1403158123 source:/project/c/erasure_code/Reed-solomon/Jerasure/src/liberation.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"galois.h"
+	"jerasure.h"
+	"liberation.h"
+
+1403158123 source:/project/c/erasure_code/Reed-solomon/Jerasure/src/reed_sol.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<gf_complete.h>
+	"galois.h"
+	"jerasure.h"
+	"reed_sol.h"
+
+1409046887 source:/project/c/erasure_code/Reed-solomon/Jerasure/Examples/reed_sol_01_van_encode.c
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	<string.h>
+	<gf_rand.h>
+	"jerasure.h"
+	"reed_sol.h"
+
